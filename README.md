@@ -1,1 +1,0 @@
-"# Shpinkso.github.io" 
