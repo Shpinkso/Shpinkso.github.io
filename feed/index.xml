@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>BlayzSoftwareManagement</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Blayz Software Management</description>
+	<lastBuildDate>Fri, 12 Jun 2020 08:05:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/06/cropped-favicon-32x32.png</url>
+	<title>BlayzSoftwareManagement</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cognitive Complexity as a software metric</title>
+		<link>/cognitive-complexity-as-a-software-metric/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2020 07:32:07 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">/?p=1252</guid>
+
+					<description><![CDATA[I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), but how much value is &#8230;<p class="read-more"> <a class="" href="/cognitive-complexity-as-a-software-metric/"> <span class="screen-reader-text">Cognitive Complexity as a software metric</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1252" class="elementor elementor-1252" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-960e43f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="960e43f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-42c2e81 elementor-column elementor-col-100 elementor-top-column" data-id="42c2e81" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-b37beec elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="b37beec" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b9c0a09 elementor-column elementor-col-100 elementor-inner-column" data-id="b9c0a09" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f022354 elementor-widget elementor-widget-text-editor" data-id="f022354" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="margin: 0cm 0cm 0.0001pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), but how much value is that? Most applications are multi threaded and do not run in a linear fashion, I’d argue that there’s considerably more value in measuring the readability of code in order to allow people to understand what it does and how to change it. I’ve seen easy-to-read and hard-to-read methods that evaluate to the same value on the Cyclomatic Complexity scale. Perhaps that’s ok and we care about logical complexity, but my (weakly held) strong opinion is that the real value is in ease of human understanding when it comes to code.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Perhaps Cyclomatic Complexity has a place as an indicator of worsening or improving code complexity, but I’m happy to say that I have found something that comes a lot closer to evaluating “can I work out what it’s doing?” type complexity, in my mind at least.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">As part of some work that we’re doing on metrics, I had a look into alternative code complexity measure and stumbled upon Cognitive Complexity &#8211; a metric that SonarQube, amongst others presumably, can report.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Now before moving on, I’m assuming that there’s little disagreement that “internal code quality” (of which readability is an aspect) is a valuable thing. If not, stop reading and go here: </span><span style="color: black; mso-color-alt: windowtext;"><a title="https://martinfowler.com/articles/is-quality-worth-cost.html" href="https://martinfowler.com/articles/is-quality-worth-cost.html"><span style="font-family: 'Segoe UI',sans-serif; color: #0052cc; letter-spacing: -.05pt;">https://martinfowler.com/articles/is-quality-worth-cost.html</span></a></span><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;"> </span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">So what is Cognitive Complexity? Other than being obviously how hard something is to get your head around. Well there’s a great whitepaper </span><span style="color: black; mso-color-alt: windowtext;"><a title="https://www.sonarsource.com/resources/white-papers/cognitive-complexity.html" href="https://www.sonarsource.com/resources/white-papers/cognitive-complexity.html"><span style="font-family: 'Segoe UI',sans-serif; color: #0052cc; letter-spacing: -.05pt;">here</span></a></span><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">, but I’ll try to summarise the content below.</span></p><p> </p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Take a look at these examples from the whitepaper:</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-aa468fe elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="aa468fe" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5cbd26b elementor-column elementor-col-100 elementor-top-column" data-id="5cbd26b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-9f1944d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="9f1944d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-d2ebda2 elementor-column elementor-col-50 elementor-inner-column" data-id="d2ebda2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-65eb68f elementor-widget elementor-widget-text-editor" data-id="65eb68f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><pre>int sumOfPrimes(int max) {              // +1<br />  int total = 0;<br />  OUT: for (int i = 1; i &lt;= max; ++i) { // +1<br />    for (int j = 2; j &lt; i; ++j) {       // +1<br />      if (i % j == 0) {                 // +1<br />        continue OUT;<br />      }<br />    }<br />    total += i;<br />  }<br />  return total;<br />}</pre></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fb7060b elementor-widget elementor-widget-text-editor" data-id="fb7060b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4>Cyclomatic Complexity = 4</h4></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-cf6d430 elementor-column elementor-col-50 elementor-inner-column" data-id="cf6d430" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-482b32d elementor-widget elementor-widget-text-editor" data-id="482b32d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><pre>String getWords(int number) {  // +1<br />  switch (number) {<br />    case 1:                    // +1<br />      return "one";<br />    case 2:                    // +1<br />      return "a couple";<br />    case 3:                    // +1<br />      return "a few";<br />    default:<br />      return "lots";<br />    }<br />}</pre></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5dc45d4 elementor-widget elementor-widget-text-editor" data-id="5dc45d4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4>Cyclomatic Complexity = 4</h4></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-83861c4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="83861c4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f347265 elementor-column elementor-col-100 elementor-top-column" data-id="f347265" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-e1cc0f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="e1cc0f2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c1c725a elementor-column elementor-col-100 elementor-inner-column" data-id="c1c725a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6123541 elementor-widget elementor-widget-text-editor" data-id="6123541" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Which is easier to read and understand? In fact, which is actually more complex and which would need more testing?</span></p><p> </p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Here are the same code snippets measured with the Cognitive Complexity metric:</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-e6d2ea3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e6d2ea3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5016285 elementor-column elementor-col-100 elementor-top-column" data-id="5016285" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-eae5e6b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="eae5e6b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-bd396c0 elementor-column elementor-col-50 elementor-inner-column" data-id="bd396c0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-adad71c elementor-widget elementor-widget-text-editor" data-id="adad71c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><pre>int sumOfPrimes(int max) {<br />  int total = 0;<br />  OUT: for (int i = 1; i &lt;= max; ++i) { // +1<br />    for (int j = 2; j &lt; i; ++j) {       // +2<br />      if (i % j == 0) {                 // +3<br />        continue OUT;                   // +1<br />      }<br />    }<br />    total += i;<br />  }<br />  return total;<br />}</pre></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9a397c9 elementor-widget elementor-widget-text-editor" data-id="9a397c9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4>Cognitive Complexity = 7</h4></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-f27c914 elementor-column elementor-col-50 elementor-inner-column" data-id="f27c914" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3488afa elementor-widget elementor-widget-text-editor" data-id="3488afa" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><pre>String getWords(int number) {<br />  switch (number) {            // +1<br />    case 1:<br />      return "one";<br />    case 2:<br />      return "a couple";<br />    case 3:<br />      return "a few";<br />    default:<br />      return "lots";<br />    }<br />}</pre></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2b16888 elementor-widget elementor-widget-text-editor" data-id="2b16888" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4>Cognitive Complexity = 1</h4></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b2c511c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b2c511c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-8fe8c62 elementor-column elementor-col-100 elementor-top-column" data-id="8fe8c62" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-0022aa7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="0022aa7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-da27a2a elementor-column elementor-col-100 elementor-inner-column" data-id="da27a2a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1fd214c elementor-widget elementor-widget-text-editor" data-id="1fd214c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">… that’s more like it.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">How is this done? There are three basic rules</span></p><h4 style="margin-top: 24pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Ignore Structures that allow multiple statements to be readably shorthanded into one.</span></b></h4><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">A good example of this is the breaking up of code into methods to increase readability. As a result, Cognitive Complexity does not increment for methods as Cyclomatic Complexity does.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">The aim here is to not penalise good programming practice like an increased number of smaller methods, because it is likely to reduce complexity for a reader.</span></p><h4 style="margin-top: 24pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Increment when flow-breaking structures are nested</span></b></h4><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Nested breaks in flow increase count as a proportion of how deeply they are nested. So a new “if” that is nested 4 deep adds 5 to the complexity score. 1 for the “if” and 4 for the nest level.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">This is because it’s intuitively easier to follow a linear list of code breaks than an equally, Cyclomatic Complexity-wise, complicated nested set of code breaks.</span></p><h4 style="margin-top: 24pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Increment for each break in the linear flow of the code</span></b></h4><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Anything that breaks the top to bottom, left to right flow of the code increases Cognitive Complexity, similarly to Cyclic Complexity, but there are some interesting differences.</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">1.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“Catch” is added as a break in flow</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">2.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“Else”, “Elif” and other alternatives to the initial “if” break in flow do increment but not with the same nesting penalty as above, as the nesting complexity is considered paid already at the initial “if”.</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">3.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“Switch” statements only incur a single increment, regardless of cases. Switch statements are considered more understandable then multiple “if”/”else if” blocks.</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span class="react-syntax-highlighter-line-number"><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">4.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Repeating logical comparisons with the same logic operator only increment complexity once. This is because it’s fairly similar effort to understand both of the following lines</span></p><p class="MsoNormal" style="line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><code><span style="font-size: 9.0pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #172b4d; background: #F4F5F7;">a
+&amp;&amp; b</span></code></p><p class="MsoNormal" style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><code><span style="font-size: 9.0pt; line-height: 107%; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #172b4d; background: #F4F5F7;">a
+&amp;&amp; b &amp;&amp; c &amp;&amp; d</span></code></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">but much harder to understand a statement with mixed logical operators</span></p><p class="MsoNormal" style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><code><span style="font-size: 9.0pt; line-height: 107%; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #172b4d; background: #F4F5F7;">a || b
+&amp;&amp; c || d</span></code></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">5.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Recursion is the one exception to the “don’t increment for methods” rule</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">6.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“goto”, “break” and “continue” increase complexity, but no other jumps are. e.g. an early “return” is considered to make code clearer so is ignored.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">The white paper referenced above is not long and I highly recommend reading it, but I hope that this is a useful summary (if nothing else, writing this caught a couple of mis-conceptions I’d made from just reading the paper).</span></p><p> </p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Comments/thoughts are welcome.</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Protected: The ugly side of &#8220;No Surprises&#8221; Management</title>
+		<link>/the-ugly-side-of-no-surprises-management/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2020 07:00:04 +0000</pubDate>
+				<category><![CDATA[People]]></category>
+		<guid isPermaLink="false">/?p=1250</guid>
+
+					<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
+										<content:encoded><![CDATA[<form action="/wp-login.php?action=postpass" class="post-password-form" method="post">
+<p>This content is password protected. To view it please enter your password below:</p>
+<p><label for="pwbox-1250">Password: <input name="post_password" id="pwbox-1250" type="password" size="20" /></label> <input type="submit" name="Submit" value="Enter" /></p>
+</form>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Autonomous teams vs &#8216;resource&#8217; management</title>
+		<link>/autonomous-teams-vs-resource-management/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 23 May 2020 20:39:03 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[People]]></category>
+		<guid isPermaLink="false">/?p=1216</guid>
+
+					<description><![CDATA[How often have you heard the phrase &#8220;We don&#8217;t have the resource&#8221; or &#8220;How many resources will it take?&#8221; in software management? Quite apart from the dehumanising nature of the word (should we, in response, say &#8220;that&#8217;s a good question, management resource number 3&#8221;?), people are not automatons who are all equally skilled/motivated coding monkeys &#8230;<p class="read-more"> <a class="" href="/autonomous-teams-vs-resource-management/"> <span class="screen-reader-text">Autonomous teams vs &#8216;resource&#8217; management</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1216" class="elementor elementor-1216" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-472a2585 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="472a2585" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-985e54 elementor-column elementor-col-100 elementor-top-column" data-id="985e54" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-c2599e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="c2599e2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4e5130f elementor-column elementor-col-50 elementor-inner-column" data-id="4e5130f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-467c64e elementor-widget elementor-widget-text-editor" data-id="467c64e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>How often have you heard the phrase &#8220;We don&#8217;t have the resource&#8221; or &#8220;How many resources will it take?&#8221; in software management?</p>
+<p>Quite apart from the dehumanising nature of the word (should we, in response, say &#8220;that&#8217;s a good question, management resource number 3&#8221;?), people are not automatons who are all equally skilled/motivated coding monkeys that can be thrown at any problem.</p>
+<p>People each have unique skills, ways of working, areas of experience, interests and relationships with others that all matter heavily in terms of getting the best results, or getting anything at all.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-f34f26c elementor-column elementor-col-50 elementor-inner-column" data-id="f34f26c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-7ca8978 elementor-widget elementor-widget-image" data-id="7ca8978" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="848" height="410" src="/wp-content/uploads/2020/06/paper-team.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2020/06/paper-team.jpg 848w, /wp-content/uploads/2020/06/paper-team-300x145.jpg 300w, /wp-content/uploads/2020/06/paper-team-768x371.jpg 768w" sizes="(max-width: 848px) 100vw, 848px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-d10c1d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="d10c1d3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-38d958a elementor-column elementor-col-100 elementor-inner-column" data-id="38d958a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-13b4272 elementor-widget elementor-widget-text-editor" data-id="13b4272" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This is the challenge and the joy of managing a team, as you get to know each member of the team, you start seeing how they work, what keeps them engaged and effective. In return, engaged and effective people make for an excellent team to manage.<br />This is why it kills me a bit every time I have to grin and bear this idea that it&#8217;s sensible to &#8220;put two resources on this&#8221;. <br />Now, any manager worth their salt will just nod and manage the low priority task in a way that keeps upper management off their back, but certainly isn&#8217;t two full time engineers beavering away on only that task every day.</p>
+<p>While we&#8217;re on the subject, Scott Adams, as usual, hits the nail on the head: <a href="https://dilbert.com/strip/1995-09-22">https://dilbert.com/strip/1995-09-22</a></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6cb7aa4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="6cb7aa4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3b23f43 elementor-column elementor-col-50 elementor-inner-column" data-id="3b23f43" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ca9e6dc elementor-widget elementor-widget-image" data-id="ca9e6dc" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="768" height="377" src="/wp-content/uploads/2020/05/resource-chart-768x377.png" class="attachment-medium_large size-medium_large" alt="" srcset="/wp-content/uploads/2020/05/resource-chart-768x377.png 768w, /wp-content/uploads/2020/05/resource-chart-300x147.png 300w, /wp-content/uploads/2020/05/resource-chart-1024x503.png 1024w, /wp-content/uploads/2020/05/resource-chart-1536x754.png 1536w, /wp-content/uploads/2020/05/resource-chart.png 1743w" sizes="(max-width: 768px) 100vw, 768px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-39fde70 elementor-widget elementor-widget-text-editor" data-id="39fde70" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #999999;"><em>How many times have we seen this before? A resource mountain chart where the total capacity of your team is lower than the estimated work &#8211; everyone mutters in concern and no one does anything about it. No one thinks about whether someone on project 3 can effectively contribute to project 4 or not, it doesn&#8217;t matter, everyone is just a resource!</em></span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-88259fb elementor-column elementor-col-50 elementor-inner-column" data-id="88259fb" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8f68e24 elementor-widget elementor-widget-text-editor" data-id="8f68e24" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>So if we shouldn&#8217;t treat engineers (or anyone else for that matter) as identical &#8216;resources&#8217; to be applied, interchangeably across tasks, how do we know that we&#8217;re making 100% use out of all of our &#8216;resources&#8217; all of the time?</p>
+<p>Wouldn&#8217;t we want a big resource mountain chart so that we can ensure that no one is slacking off and that we&#8217;re fully utilising everyone?</p>
+<p>No. No we shouldn&#8217;t.</p>
+<p>Generating resource mountain charts are a fantastic way to distract your teams from doing valuable work in order to give the <em>illusion</em> of control and comfort that everyone&#8217;s fully utilised. </p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-4b0a188 elementor-widget elementor-widget-text-editor" data-id="4b0a188" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:image {"id":1245,"width":1052,"height":509,"sizeSlug":"large"} --></p>
+<figure class="wp-block-image size-large is-resized"></figure>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>My experience as a technical project manager who prefers to locate and work closely with the technical teams, is that they are almost *never* working on what the mountain chart says they should be. <br />Why? Because the reality on the ground is that priorities change, people are complex, the work is complex and the very idea of detailed predictability around who&#8217;s working on what beyond a few weeks is pure fantasy, especially in larger companies, particularly in software.</p>
+<p>So what do I suggest as an alternative?</p>
+<p>Would it sound unprofessional to say that we perhaps shouldn&#8217;t fully load everyone with necessary work? It sounds non-intuitive, but it&#8217;s beneficial for several reasons &amp; a subject for another blog. For now, bear with me on this idea.</p>
+<p>How about we create cross-skill teams that can manage autonomously? Depending on the number of independent skill sets required for your business, it may be possible to create multiple, similarly capable teams. In the case of businesses with a high number of specialised skills required, teams that can manage specific aspects of your product or service. <br />The key is that these teams need to have all the skills embedded in the team to allow them to complete tasks end to end. This vastly reduces the need for expensive coordination effort across teams when coupled with a modular architecture and decent CI/CD infrastructure.</p>
+<p>Once you have your autonomous teams, the input simply becomes a prioritised list of features/stories/business needs that the team can own and deliver by themselves.<br />What are your thoughts? Have you tried this approach? Did it work for you?<br />Worth mentioning that I don&#8217;t claim to have come up with the idea of autonomous teams, I originally heard of the idea from Spotify&#8217;s way-of-working videos. I do find that those I&#8217;ve worked with who really know their stuff do favour this model and I have seen the impact in a couple of roles.<br />Some links: <br /><a href="https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/">https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/</a><br /><a href="https://blog.newrelic.com/culture/autonomous-teams-what-they-are-and-why-you-should-care/">https://blog.newrelic.com/culture/autonomous-teams-what-they-are-and-why-you-should-care/</a><br /><a href="https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/">https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/</a></p>
+<p>Thanks for reading!</p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Why The Bottleneck Is Everything</title>
+		<link>/why-the-bottleneck-is-everything/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 23 May 2020 20:34:12 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">/?p=1214</guid>
+
+					<description><![CDATA[This is probably the least intuitive idea that I&#8217;ve come across in my working career, but when explained and demonstrated, possibly one of the most important.Here it is: it is inefficient to have everyone working at 100% effort, 100% of the time.This seems wrong &#8211; we&#8217;re paying for these people, they should be putting all &#8230;<p class="read-more"> <a class="" href="/why-the-bottleneck-is-everything/"> <span class="screen-reader-text">Why The Bottleneck Is Everything</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>This is probably the least intuitive idea that I&#8217;ve come across in my working career, but when explained and demonstrated, possibly one of the most important.<br>Here it is: it is inefficient to have everyone working at 100% effort, 100% of the time.<br>This seems wrong &#8211; we&#8217;re paying for these people, they should be putting all their time and effort towards our product features! Get back to working on them!However, due to a concept called the &#8220;theory of constraints&#8221; (see &#8220;The Goal&#8221; by E.M. Goldratt) this is actually a terribly inefficient way of getting value through your business.<br><br>I&#8217;m going to approach this slightly differently to Goldratt, so let&#8217;s start with these premises<br><strong>1) Development of a product/service goes through several sequential steps </strong><br>Yes, even if we&#8217;re super agile we do still find ourselves going through sequential steps, e.g. defining what we want, identifying what it depends on, actually doing it, getting reviews &amp; presumably smashing a big green release button.<br><strong>2) Work in progress costs effort</strong><br>Someone has to estimate, design, do something with it, otherwise it&#8217;s not really in progress<br><strong>3) Unfinished work goes stale over time and costs effort to un-stale-ify</strong><br>Un-stale-ify &#8230;. you&#8217;re welcome! Pretty much any work that isn&#8217;t completely implemented and on test will get out of date enough to be not worth having.<br><br>Based on these, I think we can build the case the case for the importance of bottlenecks. <br>Starting with 1, lets assume that we have an overly simplistic sequence A-B-C.<br>A is super efficient and puts 10 units through per day<br>B is not too bad with 9 units per day<br>C is our bottleneck with just 4 units per day<br><br>It seems fairly obvious that if we get A and B to work at full capacity then we still don&#8217;t make any more than 4 units per day that we can sell. A and B are consuming cost and produce surplus that starts to pile up, rust, and everyone is blaming poor C.<br>So, ok, that was obvious and we decide to recruit a second C, now we&#8217;re a bit closer and managing 8 units per day&#8230; we still have that surplus though and that hurts (see premise 2 and 3).<br>A is still making 10 units per day<br>B is still making 9 units per day<br>C is now 8 units per day<br><br>Getting A and B to work at full capacity doesn&#8217;t help. Throughput will never be higher than 8 &amp; we&#8217;ll end up with a big rusting backlogs behind B and C. This &#8216;rusting&#8217; occurs over time, the longer the thing sits around, the more effort it costs.<br>Ultimately there is no benefit to optimising locally at A and B, if C isn&#8217;t going any faster, then the system isn&#8217;t going any faster.<br>Bottlenecks are everything because any optimisation anywhere apart from the bottleneck is only going to cost you more and gain you nothing &#8211; even slow you down!<br>What if we took a different approach? A &#8216;Pull&#8217; rather than &#8216;Push&#8217; approach.Let&#8217;s give each step a fixed backlog of up to C&#8217;s maximum capacity and no more. The previous step only feeds in enough to fill the backlog if there&#8217;s space.This means that A and B start realising that they sometimes don&#8217;t need to work at full capacity and the same end product quantities get generated regardless, while also not causing overflowing backlogs.<br>Applying this idea to knowledge work like software development, there&#8217;s even more benefit &#8211; as this &#8216;spare&#8217; time can be used for learning, personal development, to look at what *should* be done as well as what *must* be done, maybe help the bottleneck out or (and this is really important) investigate new and creative ideas to give your business an edge.<br>Suffering with bottlenecks? Yes you are. =)<br>Here are the 4 steps to dealing with them, plus a link that explains each step in more detail<br>1) Identify<br>2) Exploit<br>3) Subordinate<br>4) Elevate<br><a href="https://masteringbusinessanalysis.com/mba082-addressing-bottlenecks-theory-constraints/">https://masteringbusinessanalysis.com/mba082-addressing-bottlenecks-theory-constraints/</a><br><br>Thanks for reading!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Motivation 2.0</title>
+		<link>/motivation-2-0/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 23 May 2020 20:28:27 +0000</pubDate>
+				<category><![CDATA[People]]></category>
+		<guid isPermaLink="false">/?p=1212</guid>
+
+					<description><![CDATA[How are you engaging your team? Are you running a regular appraisal cycle where everyone&#8217;s individual score is totted up and ultimately dictates financial reward (pay increase, bonus, share options) or, on the other side of the scale, performance improvement plans? How are you finding this? Do people who get the financial rewards become more &#8230;<p class="read-more"> <a class="" href="/motivation-2-0/"> <span class="screen-reader-text">Motivation 2.0</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>How are you engaging your team? Are you running a regular appraisal cycle where everyone&#8217;s individual score is totted up and ultimately dictates financial reward (pay increase, bonus, share options) or, on the other side of the scale, performance improvement plans? </p>
+
+
+
+<p>How are you finding this? </p>
+
+
+
+<p>Do people who get the financial rewards become more engaged and effective throughout the year? Do those on the performance improvement plans &#8220;pull their socks up&#8221; and become superstars now that they know they&#8217;re not performing to expectations?</p>
+
+
+
+<p>I wouldn&#8217;t be at all surprised if the answer is no. I&#8217;ve never seen this approach actually make any difference &amp; the psychology behind this backs me up.<br>The title of this blog is taken from the book &#8220;Drive: The Surprising Truth About What Motivates Us&#8221; by Daniel H Pink. It&#8217;s backed up with scientific studies on the psychology of motivation and problem solving. I highly recommend it.<br>The book talks about the legacy Motivation 1.0 &#8211; this is the &#8216;carrot and stick&#8217; motivation approach that the human race has employed for hundreds of years. It works in certain circumstances, primarily those in which the work is monotonous and just requires effort. It works by manipulating base animal drives like fear and avoidance of pain.<br>However, when you consider modern software development, the work is complex, requires deep thought, high collaboration, fast learning and creative thinking &#8211; this is demonstrably not improved by injecting fear of bad performance, in fact it&#8217;s greatly hindered. It&#8217;s also not improved by higher pay or bonuses &#8211; us humans are very good and getting used to new things very quickly and just raising our expectations to a &#8216;new normal&#8217;.<br>So what does work? Pink identifies the following things:</p>
+
+
+
+<p><br><strong>Autonomy</strong><br>There&#8217;s a well established psychological principle that the more say you have over your situation the happier you are. If you try to control things you do not actually have control over, you&#8217;re in for a frustrating time.Giving autonomy can be considered difficult when we necessarily need people to do things that the business needs, not just whatever they feel is important.However, this apparent difficulty is not as problematic as it first appears. I find people do tend to want to work towards a greater goal rather than go off and do some tangential thing. To maximise autonomy without compromising business objectives: avoid things like handing people detailed designs to code up, instead focus on clear objectives and the reasoning behind these objectives &#8211; exactly how the solution is reached on a technical level is what provides autonomy. Developers like to problem solve!Use review cycles and mentoring to minimise the chances of the technical solution going down a problematic road.<br></p>
+
+
+
+<p><strong>Mastery</strong><br>People want to be good at their jobs, people want to be looked up to as a mentor, but more than that, there&#8217;s a great deal of satisfaction that comes from understanding a subject at a deep level.Develop mastery in your team by giving them the space to learn &amp; entrusting them with ownership. Avoid dictating how things should be done. Instead, provide guidance and accept that making mistakes is an important part of the learning process.</p>
+
+
+
+<p><br><strong>Purpose</strong><br>Why are we doing what we&#8217;re doing? A purpose can be an individual one (e.g. teaching others) or it can be a company one (e.g. “to organize the world&#8217;s information and make it universally accessible and useful.”). This is part of the reason why it&#8217;s so important to have a mission statement that gives employees a wider purpose to what they do.Use 1-2-1s or informal conversations to understand the individuals in your team and help them identify the sort of purpose that motivates them.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What is Agility?</title>
+		<link>/hello-world/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 29 Jan 2019 18:34:25 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">//?p=1</guid>
+
+					<description><![CDATA[Strictly speaking, &#8216;Agile&#8217; is an adjective, a descriptive word&#8230; like &#8220;nimble&#8221; &#38; so the more obvious title &#8220;What is Agile?&#8221; probably would have made a small, hardcore, fraction of people up-chuck a little in their mouths. (I am not so offended on this one, but tell me something is &#8220;addicting&#8221; and I will develop an &#8230;<p class="read-more"> <a class="" href="/hello-world/"> <span class="screen-reader-text">What is Agility?</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>Strictly speaking, &#8216;Agile&#8217; is an adjective, a descriptive word&#8230; like &#8220;nimble&#8221; &amp; so the more obvious title &#8220;What is Agile?&#8221; probably would have made a small, hardcore, fraction of people up-chuck a little in their mouths. (I am not so offended on this one, but tell me something is &#8220;addicting&#8221; and I will develop an unruly lower eyelid twitch). I personally feel that the word &#8220;Agile&#8221; has come to represent a whole bunch of concepts that are far from the core meaning, but are for the most part complimentary.I have been asking colleagues and most interview candidates about what they think &#8220;Agile&#8221; means, partly because I&#8217;m actually interested in what the word has come to represent to most people, but also because I feel the need to simplify things.If you ask me, &#8220;Agile&#8221; or &#8220;Agility&#8221;, is simply organising development in such a way that value is added in iterations that are as short as possible. That&#8217;s really it. That&#8217;s what the word actually means when applied to development; to be &#8220;agile&#8221; implies the ability to change direction quickly &#8211; to achieve this, we need to be in a situation where the product or service is added to, and verified to be working, very regularly.<br>It&#8217;s interesting to hear how other people see the term, some examples of responses to the question &#8220;What does Agile development mean to you?&#8221;&#8221;&#8230;Using Jira..&#8221; (this is the most common, I can only commend Atlassian for effective marketing!)&#8221;Where developers are expected to work in multiple languages and technologies&#8221; &#8220;Using Scrum&#8221; or &#8220;Running sprints&#8221;&#8221;Scrappy development&#8221;&#8230; and the list goes on&#8230;<br>It&#8217;s a shame, because the terms meaning has diluted almost to the point of being worthless as a term. Plenty of people dislike certain processes or tools that have been touted as Agile and a distaste for the whole idea starts setting in. Once this happens, it&#8217;s very hard to un-taint the word and to get buy in for any concepts related to it.So much so, that at certain points in my career, I&#8217;ve needed to agree with my team that we should avoid using the word &#8220;Agile&#8221; entirely when suggesting ways of working that would otherwise be placed under this umbrella, and use terms like &#8220;Regular release cadence&#8221; and &#8220;Milestone demonstrations&#8221; instead. Such is the distaste that arises from the word.<br>I think what I love so much about the Agile movement (quite apart from the fact that if applied well it really works) is the acceptance that we mortals are not able to predict the future with certainty&#8230; that we are not all terrible at our jobs for being unable to do so and that change is about the only thing you can be certain of.What a relief, after years of everyone feeling like they&#8217;re failing and all the bluster and ass covering that tags along with it.Hurrah for accepting our imperfections! All hail being able to focus on adding value over ass covering!</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
