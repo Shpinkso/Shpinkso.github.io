@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Blayz Software Management</description>
-	<lastBuildDate>Fri, 12 Jun 2020 08:05:57 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 02 Aug 2020 11:17:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -46,6 +46,24 @@
 				<div class="elementor-element elementor-element-42c2e81 elementor-column elementor-col-100 elementor-top-column" data-id="42c2e81" data-element_type="column">
 			<div class="elementor-column-wrap  elementor-element-populated">
 					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-4371c4e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="4371c4e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-63ac06d elementor-column elementor-col-100 elementor-inner-column" data-id="63ac06d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-0646d05 elementor-widget elementor-widget-image" data-id="0646d05" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="640" height="256" src="/wp-content/uploads/2020/06/maze-2264_640.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2020/06/maze-2264_640.jpg 640w, /wp-content/uploads/2020/06/maze-2264_640-300x120.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
 				<section class="elementor-element elementor-element-b37beec elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="b37beec" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-row">
@@ -239,7 +257,7 @@
 		
 			</item>
 		<item>
-		<title>Protected: The ugly side of &#8220;No Surprises&#8221; Management</title>
+		<title>The ugly side of &#8220;No Surprises&#8221; Management</title>
 		<link>/the-ugly-side-of-no-surprises-management/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
@@ -247,11 +265,161 @@
 				<category><![CDATA[People]]></category>
 		<guid isPermaLink="false">/?p=1250</guid>
 
-					<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
-										<content:encoded><![CDATA[<form action="/wp-login.php?action=postpass" class="post-password-form" method="post">
-<p>This content is password protected. To view it please enter your password below:</p>
-<p><label for="pwbox-1250">Password: <input name="post_password" id="pwbox-1250" type="password" size="20" /></label> <input type="submit" name="Submit" value="Enter" /></p>
-</form>
+					<description><![CDATA[I get it&#8230; I think&#8230; &#8220;No Surprises&#8221; management is intended to ensure that people aren&#8217;t hiding bad news from their colleagues (let&#8217;s face it, usually their boss or some other superior) so that we&#8217;re not horribly surprised at the last minute that, for example, our project is 6 months late. Boom! Instant high-functioning team! Everyone &#8230;<p class="read-more"> <a class="" href="/the-ugly-side-of-no-surprises-management/"> <span class="screen-reader-text">The ugly side of &#8220;No Surprises&#8221; Management</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>I get it&#8230; I think&#8230;</p>
+
+
+
+<p>&#8220;No Surprises&#8221; management is intended to ensure that people aren&#8217;t hiding bad news from their colleagues (let&#8217;s face it, usually their boss or some other superior) so that we&#8217;re not horribly surprised at the last minute that, for example, our project is 6 months late.</p>
+
+
+
+<p>Boom! Instant high-functioning team! Everyone feels safe and surprises never happen&#8230;. Or at least, god help you if they still do happen, because I was very clear that I don&#8217;t like surprises! What don&#8217;t you understand? There isn&#8217;t an article on the whole internet that disagrees&#8230; Welcome to success-ville.</p>
+
+
+
+<p>Well&#8230;</p>
+
+
+
+<p>I&#8217;m a manager and this is surprising to me (run for cover!) but there isn&#8217;t a single article that I could find in my, admittedly limited searching, that had anything but praise for this management style.</p>
+
+
+
+<p>I can tell you, from personal experience, that I think there&#8217;s a whole lot wrong with this management style and I&#8217;d go so far as saying I think it&#8217;s a net negative approach even when given the most generous interpretation. Here&#8217;s why&#8230;</p>
+
+
+
+<p><strong>It&#8217;s like slapping a plaster on an amputation</strong></p>
+
+
+
+<p>Why would someone in a position of management be implementing No Surprises management in the first place? The fact that this needs to be employed at all speaks volumes about the level of trust, safety and collaboration that is being experienced.</p>
+
+
+
+<p>If management are expecting their teams to hide bad news, we have a systemic disfunction. All of your time and attention needs to go into stemming the culture bleed.</p>
+
+
+
+<p>The likelihood is that your teams are hiding bad news due to either a highly competitive environment or through fear of being blamed. Implementing No Surprises management simply attempts to relocate the fear from the point where it&#8217;s too late to change anything, to&#8230; just all the time.</p>
+
+
+
+<p>Perhaps that fear plaster will stem the bleed for a short time, but how is that patient doing?</p>
+
+
+
+<p><strong>It&#8217;s unclear what it means</strong></p>
+
+
+
+<p>Under a No Surprises management regime, am I in trouble for making a decision without my manager being involved? What level of surprise are we talking about here?</p>
+
+
+
+<p>As with risk, surprise can be a positive as well as a negative. I suppose we&#8217;d all like to hope that positive surprises are not to be banished in our new world order? Perhaps they are though?</p>
+
+
+
+<p>I&#8217;ve had the unfortunate experience of management that got very upset when I ran a short meeting proposing a new tool for linking features to tests&#8230; Apparently this session was inside the scope of &#8220;surprise&#8221; and I should have spent several weeks seeding the idea with management first.</p>
+
+
+
+<p>In another role, I&#8217;d found out that speaking to someone directly rather than going through my manager also fell under the scope of &#8220;surprise&#8221;.</p>
+
+
+
+<p>In short, micro managers love this management style&#8230; and it certainly doesn&#8217;t help that there&#8217;s so little material there to challenge their belief that it&#8217;s good management protocol.</p>
+
+
+
+<p><strong>It puts people on edge</strong></p>
+
+
+
+<p>Life is a ongoing cascade of surprises, there&#8217;s no pretending that this can be reined in to zero.</p>
+
+
+
+<p>Having worked in project management and development, I&#8217;m well aware that surprises aren&#8217;t always predictable. Most situations involve fluctuating risk and uncertainty and you&#8217;ll find yourself blindsided by a turn in the road, putting you in full surprise mode. Whoops! Someone&#8217;s going to be angry, they were very clear that they don&#8217;t want surprises. Bad subordinate! =)</p>
+
+
+
+<p>As I alluded to earlier in this article, No Surprises management attempts to resolve the issue of low-safety culture by spreading the fear more evenly across projects.</p>
+
+
+
+<p>&#8220;Just don&#8217;t let me experience any surprises, simple.&#8221;</p>
+
+
+
+<p>Well&#8230; Now we&#8217;re all in for a bad time.</p>
+
+
+
+<p><strong>It smacks of insecurity</strong></p>
+
+
+
+<p>I has an undertone of not wanting to be out of the loop about anything. It indicates that you&#8217;re afraid the team are hiding things from you, or doing things behind your back.</p>
+
+
+
+<p>I&#8217;m convinced that this style of management is often used by those who feel they need to know every detail of what&#8217;s going on so that, should they be asked, they don&#8217;t feel foolish by having to admit they don&#8217;t know what the cutting edge news is.</p>
+
+
+
+<p>Unfortunately, knowing everything in great detail is both not possible and attempting to do so slows everything down. Which brings me nicely on to&#8230;</p>
+
+
+
+<p><strong>It creates bottlenecks</strong></p>
+
+
+
+<p>Given that we don&#8217;t really know the intricate detail of what our surprise-fearing management classify as surprises worthy of their attention, we suppose that the safe bet is to inform them of everything&#8230; however insignificant it seems at the time.</p>
+
+
+
+<p>After all, any insignificant seeming decision or action could end up influencing huge and unacceptable surprise.</p>
+
+
+
+<p>The boss is pretty busy though, so we&#8217;d better wait around and not make progress until we find a spot to update them. Or spend time composing a message to inform them rather than spending that time doing something actually productive.</p>
+
+
+
+<p><strong>It stifles autonomy</strong></p>
+
+
+
+<p>How much to I trust my team to manage their own risk and find an effective way to reach our goals?<br>If the answer is &#8220;barely at all&#8221; then, sure, maybe I suddenly feel the need to make sure I&#8217;m informed of all deviations from the path so that I can dictate how to get back on &#8211; but at this point I have much bigger problems.</p>
+
+
+
+<p>If I do trust my team, then my role changes from sheep herder to guide &#8211; I have to accept that this might mean that my team make mistakes, at which point my role might temporarily become politics absorber, but the team are stronger for it.</p>
+
+
+
+<p>The fact is that autonomous teams shouldn&#8217;t be bogged down with concerns about how much &#8216;surprise&#8217; I can accept. In a well functioning team, the communication should be such that we don&#8217;t even need to think about what might be considered surprising or not.</p>
+
+
+
+<p>Another thing you might find from a well functioning team is that you&#8217;re experiencing more good surprises than bad ones&#8230; Now who doesn&#8217;t like surprises?</p>
+
+
+
+<p>Perhaps we could be working with short cycle iterations driven by feedback, then how much surprise can we even create?</p>
+
+
+
+<p>In summary, No Surprises management seems like a entry from the Industrial Age playbook (this excellent concept comes from &#8220;Leadership is Language&#8221; by David Marquet, please read it if you haven&#8217;t already) and comes with significant down sides. Perhaps it should be thrown out with the rest of that playbook.</p>
+
+
+
+<p>Thanks for reading!</p>
 ]]></content:encoded>
 					
 		
@@ -459,13 +627,102 @@
 		<guid isPermaLink="false">//?p=1</guid>
 
 					<description><![CDATA[Strictly speaking, &#8216;Agile&#8217; is an adjective, a descriptive word&#8230; like &#8220;nimble&#8221; &#38; so the more obvious title &#8220;What is Agile?&#8221; probably would have made a small, hardcore, fraction of people up-chuck a little in their mouths. (I am not so offended on this one, but tell me something is &#8220;addicting&#8221; and I will develop an &#8230;<p class="read-more"> <a class="" href="/hello-world/"> <span class="screen-reader-text">What is Agility?</span> Read More &#187;</a></p>]]></description>
-										<content:encoded><![CDATA[
-<p>Strictly speaking, &#8216;Agile&#8217; is an adjective, a descriptive word&#8230; like &#8220;nimble&#8221; &amp; so the more obvious title &#8220;What is Agile?&#8221; probably would have made a small, hardcore, fraction of people up-chuck a little in their mouths. (I am not so offended on this one, but tell me something is &#8220;addicting&#8221; and I will develop an unruly lower eyelid twitch). I personally feel that the word &#8220;Agile&#8221; has come to represent a whole bunch of concepts that are far from the core meaning, but are for the most part complimentary.I have been asking colleagues and most interview candidates about what they think &#8220;Agile&#8221; means, partly because I&#8217;m actually interested in what the word has come to represent to most people, but also because I feel the need to simplify things.If you ask me, &#8220;Agile&#8221; or &#8220;Agility&#8221;, is simply organising development in such a way that value is added in iterations that are as short as possible. That&#8217;s really it. That&#8217;s what the word actually means when applied to development; to be &#8220;agile&#8221; implies the ability to change direction quickly &#8211; to achieve this, we need to be in a situation where the product or service is added to, and verified to be working, very regularly.<br>It&#8217;s interesting to hear how other people see the term, some examples of responses to the question &#8220;What does Agile development mean to you?&#8221;&#8221;&#8230;Using Jira..&#8221; (this is the most common, I can only commend Atlassian for effective marketing!)&#8221;Where developers are expected to work in multiple languages and technologies&#8221; &#8220;Using Scrum&#8221; or &#8220;Running sprints&#8221;&#8221;Scrappy development&#8221;&#8230; and the list goes on&#8230;<br>It&#8217;s a shame, because the terms meaning has diluted almost to the point of being worthless as a term. Plenty of people dislike certain processes or tools that have been touted as Agile and a distaste for the whole idea starts setting in. Once this happens, it&#8217;s very hard to un-taint the word and to get buy in for any concepts related to it.So much so, that at certain points in my career, I&#8217;ve needed to agree with my team that we should avoid using the word &#8220;Agile&#8221; entirely when suggesting ways of working that would otherwise be placed under this umbrella, and use terms like &#8220;Regular release cadence&#8221; and &#8220;Milestone demonstrations&#8221; instead. Such is the distaste that arises from the word.<br>I think what I love so much about the Agile movement (quite apart from the fact that if applied well it really works) is the acceptance that we mortals are not able to predict the future with certainty&#8230; that we are not all terrible at our jobs for being unable to do so and that change is about the only thing you can be certain of.What a relief, after years of everyone feeling like they&#8217;re failing and all the bluster and ass covering that tags along with it.Hurrah for accepting our imperfections! All hail being able to focus on adding value over ass covering!</p>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1" class="elementor elementor-1" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-67eabab4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="67eabab4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2272b39d elementor-column elementor-col-100 elementor-top-column" data-id="2272b39d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-dcf6488 elementor-widget elementor-widget-image" data-id="dcf6488" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="/wp-content/uploads/2019/01/banner-4056457_1280.jpg" title="banner-4056457_1280" alt="banner-4056457_1280" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-32afc301 elementor-widget elementor-widget-text-editor" data-id="32afc301" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph -->
+<p>Strictly speaking, &#8216;Agile&#8217; is an adjective, a descriptive word&#8230; like &#8220;nimble&#8221; &amp; so the more obvious title &#8220;What is Agile?&#8221; probably would have made a small, hardcore, fraction of people up-chuck a little in their mouths. (I am not so offended on this one, but tell me something is &#8220;addicting&#8221; and I will develop an unruly lower eyelid twitch). I think the reason behind this is due to how commercialised and corporate the term has become over the years &#8211; ironically, as the original manifesto moved thinking in a completely different direction.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>I personally feel that the word &#8220;Agile&#8221; has come to represent a whole bunch of concepts that are far from the core meaning, but are for the most part complimentary. I have been asking colleagues and most interview candidates about what they think &#8220;Agile&#8221; means, partly because I&#8217;m actually interested in what the word has come to represent to most people, but also because I feel the need to simplify things.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>If you ask me, &#8220;Agile&#8221; or &#8220;Agility&#8221;, is simply organising development in such a way that value is added in iterations that are as short as possible. We do this so that we can change direction quickly when new priorities come to light, but also to understand what those priorities are by getting feedback from our customers on how well our changes are addressing their needs.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>That&#8217;s really it. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>That&#8217;s what the word actually means when applied to development; to be &#8220;agile&#8221; implies the ability to change direction quickly &#8211; to achieve this, we need to be in a situation where the product or service is added to, and verified to be working, very regularly.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It&#8217;s interesting to hear how other people see the term, some examples of responses to the question &#8220;What does Agile development mean to you?&#8221;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&#8220;&#8230;Using Jira..&#8221; (this is the most common, I can only commend Atlassian for effective marketing!)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&#8220;Where developers are expected to work in multiple languages and technologies&#8221; </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&#8220;Using Scrum&#8221; or &#8220;Running sprints&#8221;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&#8220;Scrappy development&#8221;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>&#8230; and the list goes on&#8230;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It&#8217;s a shame, because the terms&#8217; meaning has diluted almost to the point of being worthless as a term. Plenty of people dislike certain processes or tools that have been touted as Agile and a distaste for the whole idea starts setting in. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once this happens, it&#8217;s very hard to un-taint the word and to get buy in for any concepts related to it. So much so, that at certain points in my career, I&#8217;ve needed to agree with my team that we should avoid using the word &#8220;Agile&#8221; entirely when suggesting ways of working that would otherwise be placed under this umbrella, and use terms like &#8220;Regular release cadence&#8221; and &#8220;Milestone demonstrations&#8221; instead. Such is the distaste that arises from the word.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I think what I love so much about the Agile movement (quite apart from the fact that if applied well it really works) is the acceptance that we mortals are not able to predict the future with certainty&#8230; that we are not all terrible at our jobs for being unable to do so and that change is about the only thing you can be certain of.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What a relief!! </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>After years of everyone feeling like they&#8217;re failing and all the bluster and ass covering that tags along with it. Hurrah for accepting our imperfections! All hail being able to focus on adding value over ass covering!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p></p>
-]]></content:encoded>
+<!-- /wp:paragraph --></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
 					
 		
 		

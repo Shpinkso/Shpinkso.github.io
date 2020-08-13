@@ -12,7 +12,7 @@
 	<atom:link href="/category/people/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Blayz Software Management</description>
-	<lastBuildDate>Fri, 12 Jun 2020 08:04:31 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 02 Aug 2020 10:42:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,7 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Protected: The ugly side of &#8220;No Surprises&#8221; Management</title>
+		<title>The ugly side of &#8220;No Surprises&#8221; Management</title>
 		<link>/the-ugly-side-of-no-surprises-management/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
@@ -36,11 +36,161 @@
 				<category><![CDATA[People]]></category>
 		<guid isPermaLink="false">/?p=1250</guid>
 
-					<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
-										<content:encoded><![CDATA[<form action="/wp-login.php?action=postpass" class="post-password-form" method="post">
-<p>This content is password protected. To view it please enter your password below:</p>
-<p><label for="pwbox-1250">Password: <input name="post_password" id="pwbox-1250" type="password" size="20" /></label> <input type="submit" name="Submit" value="Enter" /></p>
-</form>
+					<description><![CDATA[I get it&#8230; I think&#8230; &#8220;No Surprises&#8221; management is intended to ensure that people aren&#8217;t hiding bad news from their colleagues (let&#8217;s face it, usually their boss or some other superior) so that we&#8217;re not horribly surprised at the last minute that, for example, our project is 6 months late. Boom! Instant high-functioning team! Everyone &#8230;<p class="read-more"> <a class="" href="/the-ugly-side-of-no-surprises-management/"> <span class="screen-reader-text">The ugly side of &#8220;No Surprises&#8221; Management</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>I get it&#8230; I think&#8230;</p>
+
+
+
+<p>&#8220;No Surprises&#8221; management is intended to ensure that people aren&#8217;t hiding bad news from their colleagues (let&#8217;s face it, usually their boss or some other superior) so that we&#8217;re not horribly surprised at the last minute that, for example, our project is 6 months late.</p>
+
+
+
+<p>Boom! Instant high-functioning team! Everyone feels safe and surprises never happen&#8230;. Or at least, god help you if they still do happen, because I was very clear that I don&#8217;t like surprises! What don&#8217;t you understand? There isn&#8217;t an article on the whole internet that disagrees&#8230; Welcome to success-ville.</p>
+
+
+
+<p>Well&#8230;</p>
+
+
+
+<p>I&#8217;m a manager and this is surprising to me (run for cover!) but there isn&#8217;t a single article that I could find in my, admittedly limited searching, that had anything but praise for this management style.</p>
+
+
+
+<p>I can tell you, from personal experience, that I think there&#8217;s a whole lot wrong with this management style and I&#8217;d go so far as saying I think it&#8217;s a net negative approach even when given the most generous interpretation. Here&#8217;s why&#8230;</p>
+
+
+
+<p><strong>It&#8217;s like slapping a plaster on an amputation</strong></p>
+
+
+
+<p>Why would someone in a position of management be implementing No Surprises management in the first place? The fact that this needs to be employed at all speaks volumes about the level of trust, safety and collaboration that is being experienced.</p>
+
+
+
+<p>If management are expecting their teams to hide bad news, we have a systemic disfunction. All of your time and attention needs to go into stemming the culture bleed.</p>
+
+
+
+<p>The likelihood is that your teams are hiding bad news due to either a highly competitive environment or through fear of being blamed. Implementing No Surprises management simply attempts to relocate the fear from the point where it&#8217;s too late to change anything, to&#8230; just all the time.</p>
+
+
+
+<p>Perhaps that fear plaster will stem the bleed for a short time, but how is that patient doing?</p>
+
+
+
+<p><strong>It&#8217;s unclear what it means</strong></p>
+
+
+
+<p>Under a No Surprises management regime, am I in trouble for making a decision without my manager being involved? What level of surprise are we talking about here?</p>
+
+
+
+<p>As with risk, surprise can be a positive as well as a negative. I suppose we&#8217;d all like to hope that positive surprises are not to be banished in our new world order? Perhaps they are though?</p>
+
+
+
+<p>I&#8217;ve had the unfortunate experience of management that got very upset when I ran a short meeting proposing a new tool for linking features to tests&#8230; Apparently this session was inside the scope of &#8220;surprise&#8221; and I should have spent several weeks seeding the idea with management first.</p>
+
+
+
+<p>In another role, I&#8217;d found out that speaking to someone directly rather than going through my manager also fell under the scope of &#8220;surprise&#8221;.</p>
+
+
+
+<p>In short, micro managers love this management style&#8230; and it certainly doesn&#8217;t help that there&#8217;s so little material there to challenge their belief that it&#8217;s good management protocol.</p>
+
+
+
+<p><strong>It puts people on edge</strong></p>
+
+
+
+<p>Life is a ongoing cascade of surprises, there&#8217;s no pretending that this can be reined in to zero.</p>
+
+
+
+<p>Having worked in project management and development, I&#8217;m well aware that surprises aren&#8217;t always predictable. Most situations involve fluctuating risk and uncertainty and you&#8217;ll find yourself blindsided by a turn in the road, putting you in full surprise mode. Whoops! Someone&#8217;s going to be angry, they were very clear that they don&#8217;t want surprises. Bad subordinate! =)</p>
+
+
+
+<p>As I alluded to earlier in this article, No Surprises management attempts to resolve the issue of low-safety culture by spreading the fear more evenly across projects.</p>
+
+
+
+<p>&#8220;Just don&#8217;t let me experience any surprises, simple.&#8221;</p>
+
+
+
+<p>Well&#8230; Now we&#8217;re all in for a bad time.</p>
+
+
+
+<p><strong>It smacks of insecurity</strong></p>
+
+
+
+<p>I has an undertone of not wanting to be out of the loop about anything. It indicates that you&#8217;re afraid the team are hiding things from you, or doing things behind your back.</p>
+
+
+
+<p>I&#8217;m convinced that this style of management is often used by those who feel they need to know every detail of what&#8217;s going on so that, should they be asked, they don&#8217;t feel foolish by having to admit they don&#8217;t know what the cutting edge news is.</p>
+
+
+
+<p>Unfortunately, knowing everything in great detail is both not possible and attempting to do so slows everything down. Which brings me nicely on to&#8230;</p>
+
+
+
+<p><strong>It creates bottlenecks</strong></p>
+
+
+
+<p>Given that we don&#8217;t really know the intricate detail of what our surprise-fearing management classify as surprises worthy of their attention, we suppose that the safe bet is to inform them of everything&#8230; however insignificant it seems at the time.</p>
+
+
+
+<p>After all, any insignificant seeming decision or action could end up influencing huge and unacceptable surprise.</p>
+
+
+
+<p>The boss is pretty busy though, so we&#8217;d better wait around and not make progress until we find a spot to update them. Or spend time composing a message to inform them rather than spending that time doing something actually productive.</p>
+
+
+
+<p><strong>It stifles autonomy</strong></p>
+
+
+
+<p>How much to I trust my team to manage their own risk and find an effective way to reach our goals?<br>If the answer is &#8220;barely at all&#8221; then, sure, maybe I suddenly feel the need to make sure I&#8217;m informed of all deviations from the path so that I can dictate how to get back on &#8211; but at this point I have much bigger problems.</p>
+
+
+
+<p>If I do trust my team, then my role changes from sheep herder to guide &#8211; I have to accept that this might mean that my team make mistakes, at which point my role might temporarily become politics absorber, but the team are stronger for it.</p>
+
+
+
+<p>The fact is that autonomous teams shouldn&#8217;t be bogged down with concerns about how much &#8216;surprise&#8217; I can accept. In a well functioning team, the communication should be such that we don&#8217;t even need to think about what might be considered surprising or not.</p>
+
+
+
+<p>Another thing you might find from a well functioning team is that you&#8217;re experiencing more good surprises than bad ones&#8230; Now who doesn&#8217;t like surprises?</p>
+
+
+
+<p>Perhaps we could be working with short cycle iterations driven by feedback, then how much surprise can we even create?</p>
+
+
+
+<p>In summary, No Surprises management seems like a entry from the Industrial Age playbook (this excellent concept comes from &#8220;Leadership is Language&#8221; by David Marquet, please read it if you haven&#8217;t already) and comes with significant down sides. Perhaps it should be thrown out with the rest of that playbook.</p>
+
+
+
+<p>Thanks for reading!</p>
 ]]></content:encoded>
 					
 		
