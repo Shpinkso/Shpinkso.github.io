@@ -10,12 +10,12 @@
 	Comments on: Home	</title>
 	<atom:link href="/home/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Blayz Software Management</description>
+	<description>Paul Blay on Software Management</description>
 	<lastBuildDate>Thu, 13 Aug 2020 14:47:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.2</generator>
+	<generator>https://wordpress.org/?v=5.5</generator>
 </channel>
 </rss>
