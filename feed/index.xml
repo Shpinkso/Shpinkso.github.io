@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Paul Blay on Software Management</description>
-	<lastBuildDate>Fri, 14 Aug 2020 14:44:42 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 18 Aug 2020 19:22:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,6 +34,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 12 Jun 2020 07:32:07 +0000</pubDate>
 				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Metrics]]></category>
 		<guid isPermaLink="false">/?p=1252</guid>
 
 					<description><![CDATA[I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), but how much value is &#8230;<p class="read-more"> <a class="" href="/complexity-as-a-software-metric/"> <span class="screen-reader-text">Complexity as a software metric</span> Read More &#187;</a></p>]]></description>
