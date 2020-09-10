@@ -12,13 +12,13 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Paul Blay on Software Management</description>
-	<lastBuildDate>Tue, 18 Aug 2020 19:22:38 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Sep 2020 19:34:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.5</generator>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
 
 <image>
 	<url>/wp-content/uploads/2020/06/cropped-favicon-32x32.png</url>
@@ -28,6 +28,186 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>7 practical steps to increase accountability in agile teams</title>
+		<link>/7-practical-steps-to-increase-accountability-in-agile-teams/</link>
+					<comments>/7-practical-steps-to-increase-accountability-in-agile-teams/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 10 Sep 2020 19:16:20 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[People]]></category>
+		<guid isPermaLink="false">/?p=1339</guid>
+
+					<description><![CDATA[Individual and team accountability is critical for any high functioning team, I believe that this is often a concern for senior management, especially when considering an agile transformation, and can be difficult to attain. At the points in my career that I have seen senior management push back on the adoption of agile methodologies, the &#8230;<p class="read-more"> <a class="" href="/7-practical-steps-to-increase-accountability-in-agile-teams/"> <span class="screen-reader-text">7 practical steps to increase accountability in agile teams</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1339" class="elementor elementor-1339" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-ffe98a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ffe98a4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4c145e2 elementor-column elementor-col-100 elementor-top-column" data-id="4c145e2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-27708f2 elementor-widget elementor-widget-text-editor" data-id="27708f2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Individual and team accountability is critical for any high functioning team, I believe that this is often a concern for senior management, especially when considering an agile transformation, and can be difficult to attain.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-85ea17d elementor-widget elementor-widget-text-editor" data-id="85ea17d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>At the points in my career that I have seen senior management push back on the adoption of agile methodologies, the main areas of contention has been around the feeling of losing &#8220;control&#8221; over the delivery roadmap.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f1a15ca elementor-widget elementor-widget-text-editor" data-id="f1a15ca" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Agile methodologies accept and embrace the fact that the &#8220;control&#8221; of the future is illusionary, based on the fact that we are poor predictors of future events and that communication is never perfect.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-778da40 elementor-widget elementor-widget-text-editor" data-id="778da40" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Along the same lines, it&#8217;s very easy to understand how to apply accountability in a waterfall model &#8211; &#8220;You are accountable for delivering all the written requirements by the agreed time.&#8221;&#8230; Easy.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-765d65e elementor-widget elementor-widget-text-editor" data-id="765d65e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">This, of course, ignores whether the written requirements are actually valuable if delivered at the agreed time. It ignores that the requirements are likely to be imperfect, incomplete or that any (inevitable) change will happen. It ignores that the work involved in delivering the features must be an estimate, an educated guess, an unreliable prediction, and the cost incurred by pretending that it&#8217;s not.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1262e22 elementor-widget elementor-widget-text-editor" data-id="1262e22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>&#8230; But it&#8217;s so easy&#8230; And I, as a busy senior manager, can stop spending time thinking about the project after it&#8217;s kicked off all the way up until it&#8217;s delivered, I don&#8217;t have to learn or understand the implications of change, I can look even further forward now that I know what&#8217;s coming &#8211; I feel that we have established control over the future and that makes it easier to sleep at night.<br />It&#8217;s no big stretch to see why these beliefs are so seductive.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-fb748c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="fb748c2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-d46d4f9 elementor-column elementor-col-100 elementor-top-column" data-id="d46d4f9" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-acfe270 elementor-widget elementor-widget-text-editor" data-id="acfe270" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">So how do I sleep at night and free up more time as a senior manager in an Agile environment? How do I ensure that my teams are accountable for delivering the maximum value for the business if we don&#8217;t have a big requirements sign off and plan of record?</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ef85bf2 elementor-widget elementor-widget-text-editor" data-id="ef85bf2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The good news is that accountability is not only achievable, but likely to deliver far better results than plan-of-record style accountability, if you put the right framework in place. Here are techniques and approaches that I have found to be successful at various levels of the business.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-420d7ae elementor-widget elementor-widget-heading" data-id="420d7ae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Utilise OKRs</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f4097d6 elementor-widget elementor-widget-text-editor" data-id="f4097d6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Make the goal measurable. OKRs provide a framework for empowering teams, unleashing creativity and ensuring accountability.
+OKRs are outcome focused, not output focussed like a requirements document and a plan of record. The Key Results are your metrics for monitoring the progress of your teams on achieving the outcomes. With the right OKRs there&#8217;s no room for dropping quality to achieve output deadlines, or political manoeuvring to make something sound more successful than it really was. Keep your teams accountable while adding measurable business value.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-672519f elementor-widget elementor-widget-heading" data-id="672519f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Ensure Continuous Delivery</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ea4361e elementor-widget elementor-widget-text-editor" data-id="ea4361e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">If you hear a contention like
+</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d9fef18 elementor-widget elementor-widget-text-editor" data-id="d9fef18" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><blockquote><p>&#8220;I worked with a team that ran agile and another that ran waterfall. The agile team were engaged and creative but never delivered anything. The waterfall team delivered.&#8221;</p></blockquote></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9b621b7 elementor-widget elementor-widget-text-editor" data-id="9b621b7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Then the agile teams in that scenario were not running continuous delivery.
+It is certainly true that if a team doesn&#8217;t deliver anything then it is producing no value. In fairness, I have seen this happen and it can lead to teams that live in the &#8216;comfort zone&#8217;, there&#8217;s an overly relaxed attitude and lack of accountability hiding behind a façade of agile reasoning.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cbe22a6 elementor-widget elementor-widget-text-editor" data-id="cbe22a6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">As a delivery manager, make sure your top priority is getting automated deliverable product happening as regularly as possible. Even if it doesn&#8217;t end up in customers hands every time use it to prove to yourself, and any internal stakeholders, that value is being added. In addition you provide opportunities to gather feedback and change direction, all based on working software, not reports.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a5e5e3a elementor-widget elementor-widget-heading" data-id="a5e5e3a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Facilitate Close Customer Contact</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bf6f9db elementor-widget elementor-widget-text-editor" data-id="bf6f9db" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Nothing keeps a team feeling more accountable than regular, direct customer contact. Caution is needed if this is introduced to a team unfamiliar with talking directly to customers, choose your participants wisely and offer coaching and support.</p><p><br />Once a team is successfully engaged in direct communication with customers, the waste generated by layers of indirection and the risk of personal agendas being injected along the way is dramatically reduced. Everyone&#8217;s happier that they&#8217;re not spending time on unwanted or unexplained work and a focus on direct value delivery drives accountability.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4908c2a elementor-widget elementor-widget-heading" data-id="4908c2a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Enable Component Ownership</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-21bc65a elementor-widget elementor-widget-text-editor" data-id="21bc65a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This aspect of ensuring accountability requires that the product architecture, supporting frameworks and team composition are coordinated to allow it, but the benefits are manifold.<br />Accountability sits proudly among the benefits, as a team that owns a component from cradle to grave naturally are accountable for the performance of that component.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ec8ff90 elementor-widget elementor-widget-heading" data-id="ec8ff90" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Promote Pairing</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1b9e2fa elementor-widget elementor-widget-text-editor" data-id="1b9e2fa" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Looking closer at the hands-on work &#8211; pairing can be an extremely effective accountability measure, both in terms of ensuring good practice and consistent focus. Be sure to keep the pairings fresh to ensure learning is maximised and pairs aren&#8217;t stagnating.</p><p>Full-time pairing can be mentally exhausting when first introduced, it&#8217;s worth considering how this approach could be trialled initially with a roll out over time.<br />Some members, or entire teams, may push back on this approach, in which case, consider it an opportunity for a discussion on what team members do to hold each other to account and ideas build on that.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-06955de elementor-widget elementor-widget-heading" data-id="06955de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Hire for accountability</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5f18008 elementor-widget elementor-widget-text-editor" data-id="5f18008" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Skills can be taught, personality traits like accountability are what set candidates apart. Accountability is born from a feeling of extreme ownership. Asking simple questions like &#8220;Do you take accountability for your work?&#8221; is obviously only going to get one answer in an interview, we need to look at more subtle ways of identifying clues.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-03e290b elementor-widget elementor-widget-text-editor" data-id="03e290b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The first thing I&#8217;d tend to look for is someone&#8217;s accountability for their own personal development. At the screening stage, look for extra curricular activity that&#8217;s in the public domain. For software engineers personal github projects and Linkedin certifications are a good place to start. Ask the candidate if they have any pet projects they want to demonstrate.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7cbfe24 elementor-widget elementor-widget-text-editor" data-id="7cbfe24" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Once you at interview stage, probe on what the candidate has found to be particularly challenging in their career so far. Look for whether they accept personal responsibility for any mistakes and how comfortable they are in doing that.</p><p>To be accountable, you must be happy to take personal responsibility and have the drive to learn and improve.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c592dd7 elementor-widget elementor-widget-heading" data-id="c592dd7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Get Expectations Set Using RACI</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-89ba464 elementor-widget elementor-widget-text-editor" data-id="89ba464" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Sometimes it&#8217;s just worth spelling it out. Using RACI can be helpful in this case.<br />My advice is not to try and boil the ocean with your RACI chart. Start with the big items that you think need clarifying first and keep evolving it as missing aspects are uncovered.<br />Like every good agile product, iterate!</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/7-practical-steps-to-increase-accountability-in-agile-teams/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Complexity as a software metric</title>
 		<link>/complexity-as-a-software-metric/</link>
 		
