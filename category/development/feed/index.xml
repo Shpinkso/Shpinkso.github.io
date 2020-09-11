@@ -12,7 +12,7 @@
 	<atom:link href="/category/development/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Paul Blay on Software Management</description>
-	<lastBuildDate>Thu, 10 Sep 2020 19:34:34 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Sep 2020 13:28:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,7 +30,6 @@
 	<item>
 		<title>7 practical steps to increase accountability in agile teams</title>
 		<link>/7-practical-steps-to-increase-accountability-in-agile-teams/</link>
-					<comments>/7-practical-steps-to-increase-accountability-in-agile-teams/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 10 Sep 2020 19:16:20 +0000</pubDate>
@@ -202,8 +201,6 @@ It is certainly true that if a team doesn&#8217;t deliver anything then it is pr
 		</div>
 		]]></content:encoded>
 					
-					<wfw:commentRss>/7-practical-steps-to-increase-accountability-in-agile-teams/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
