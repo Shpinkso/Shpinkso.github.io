@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Paul Blay on Software Management</description>
-	<lastBuildDate>Thu, 10 Sep 2020 19:34:34 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 17 Sep 2020 11:03:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,9 +28,963 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The agility Challenge for Embedded Software</title>
+		<link>/the-agility-challenge-for-embedded-software/</link>
+					<comments>/the-agility-challenge-for-embedded-software/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 17 Sep 2020 10:44:09 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">/?p=1381</guid>
+
+					<description><![CDATA[If you&#8217;ve ever worked for a business that has it&#8217;s core focus in the embedded software space, I suspect you are more likely to have had to tolerate software development practices from 20 years ago. If you&#8217;ve read many books on Agile software development, DevOps or other modern practices, you may also have noticed that &#8230;<p class="read-more"> <a class="" href="/the-agility-challenge-for-embedded-software/"> <span class="screen-reader-text">The agility Challenge for Embedded Software</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1381" class="elementor elementor-1381" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-d354018 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d354018" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3ad0062 elementor-column elementor-col-100 elementor-top-column" data-id="3ad0062" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-15c697f elementor-widget elementor-widget-text-editor" data-id="15c697f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">If you&#8217;ve ever worked for a business that has it&#8217;s core focus in the embedded software space, I suspect you are more likely to have had to tolerate software development practices from 20 years ago.
+If you&#8217;ve read many books on Agile software development, DevOps or other modern practices, you may also have noticed that they almost all talk about software that targets a server or website, possibly a PC. But unless you&#8217;re reading a very different library to me, you&#8217;ll not have seen much talk about embedded software. Why is this?</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c38e0dd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c38e0dd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b926d2d elementor-column elementor-col-100 elementor-top-column" data-id="b926d2d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e5af8f3 elementor-widget elementor-widget-text-editor" data-id="e5af8f3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">First of all, &#8220;Embedded software&#8221; is a little nebulous (a mobile phone could be considered an embedded platform, but these days has modern PC rivalling specs &amp; connectivity) &#8211; for this article, a platform can be considered more &#8220;Embedded&#8221; the more resource constrained it is (I&#8217;m talking low-cost, low power devices with minimal or no UI) and/or the more application specific the hardware is (i.e. ASICs &#8220;Application Specific Integrated Circuit&#8221;).</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-95ebab9 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="95ebab9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4d42367 elementor-column elementor-col-100 elementor-top-column" data-id="4d42367" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ebb56e6 elementor-widget elementor-widget-text-editor" data-id="ebb56e6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Embedded Software is (unfortunately, as I&#8217;m such an Agile nerd) what the majority of my career has focussed on. But I&#8217;m lucky, I&#8217;ve experienced life outside this world too. Working in IoT you start to see how software for a cloud platform can operate when done well &#8211; suddenly all those great ideas touted by the books, conferences and blogs can be seen in action.</p><p>THIS is how I got hooked. THIS is the way things should be done.</p><p>Effective agility is a major challenge for the embedded software world though&#8230;. Probably not an insurmountable one, but a much bigger one than the platforms they write the books about.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c9fc04d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c9fc04d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-406980c elementor-column elementor-col-100 elementor-top-column" data-id="406980c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-84c9f41 elementor-widget elementor-widget-text-editor" data-id="84c9f41" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">In this article I&#8217;ll identify the core reasons why I think it&#8217;s such a challenge, based on my experience of driving Agile transformations in the teams I&#8217;ve managed and businesses I&#8217;ve worked for.</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-f2a18c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="f2a18c6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c50a036 elementor-column elementor-col-100 elementor-top-column" data-id="c50a036" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f70fea8 elementor-widget elementor-widget-heading" data-id="f70fea8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Hardware Production Timelines and Costs</h4>		</div>
+				</div>
+				<section class="elementor-element elementor-element-d292f5c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="d292f5c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-435c6ac elementor-column elementor-col-100 elementor-inner-column" data-id="435c6ac" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-178ea74 elementor-widget elementor-widget-text-editor" data-id="178ea74" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Software agility relies on the fact that software is, as it&#8217;s name suggests, &#8220;soft&#8221;. It can be changed easily (architectural and readability considerations aside) and cheaply. Hardware on the other hand is &#8220;hard&#8221; &#8211; usually time consuming and expensive to change.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ed6c94e elementor-widget elementor-widget-text-editor" data-id="ed6c94e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">For those in the cloud space, hardware has become almost invisible, abstracted far away from your software with the use of virtual machines and containers. You need another server? No need to gear up a production line, nor even place an order with a retailer &#8211; it&#8217;s yours, to your specification, in literal seconds and at miniscule cost.</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4fee676 elementor-widget elementor-widget-text-editor" data-id="4fee676" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>With embedded, this is a very different story. If you&#8217;re developing a new product, that product will be painfully expensive and time consuming to build. As a result, the company is going to be very twitchy about everything being ready according to a long, rigid, hardware project plan. The software timeline is often intrinsically tied to the hardware timeline.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-7a124e4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="7a124e4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-0733026 elementor-column elementor-col-100 elementor-top-column" data-id="0733026" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-27f6f6b elementor-widget elementor-widget-heading" data-id="27f6f6b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Inflexible Customer Contracts</h4>		</div>
+				</div>
+				<section class="elementor-element elementor-element-70bc91e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="70bc91e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-eee6b07 elementor-column elementor-col-100 elementor-inner-column" data-id="eee6b07" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a48c610 elementor-widget elementor-widget-text-editor" data-id="a48c610" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Certainly not limited to embedded, but more likely due the closely coupled hardware aspect. Customers for your new embedded offering may be more likely to put in place heavy, up front, contracts with late-delivery penalties &#8211; this renders business agility void which, I&#8217;d argue, thwarts technical agility for all intents and purposes (if, indeed, those two concepts can be separated).<br /><i>Lest we forget</i>: customer collaboration over contract negotiation</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-9c303d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="9c303d1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-01f246d elementor-column elementor-col-100 elementor-top-column" data-id="01f246d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-21a3f97 elementor-widget elementor-widget-heading" data-id="21a3f97" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Resource Limitations</h4>		</div>
+				</div>
+				<section class="elementor-element elementor-element-2213540 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="2213540" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6dec1ad elementor-column elementor-col-100 elementor-inner-column" data-id="6dec1ad" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e2ff892 elementor-widget elementor-widget-text-editor" data-id="e2ff892" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>I&#8217;m cheating a bit here as I&#8217;m using this as a literal definition of &#8220;embedded&#8221;, but embedded systems are often extremely resource poor due to the heavy focus on BOM (Bill Of Materials) costs. The BOM is a serious consideration for any new electronic device. Every cent on the BOM is multiplied several times to get to a list price, as the product navigates its way from the production line onto the shelves. This isn&#8217;t the only pressure, there&#8217;s also the fact that these devices are often portable and reliant on a small battery, with precious limited power, to function.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1977b7c elementor-widget elementor-widget-text-editor" data-id="1977b7c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The power, memory, and processing limitations that embedded platforms face are often seen as a significant challenge when developing embedded applications. The focus tends to be on how many features can be included and how the device manages these in various power states, but the implications are far wider than this.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2e0ad5a elementor-widget elementor-widget-text-editor" data-id="2e0ad5a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In order to squeeze performance out of highly resource constrained devices, certain decisions can be made that make agility difficult. Some examples include:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cf41157 elementor-widget elementor-widget-heading" data-id="cf41157" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Development Language Selection</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a9c0430 elementor-widget elementor-widget-text-editor" data-id="a9c0430" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>No software developer in their right mind would be choosing assembler or C as the language of choice for anything other than performance reasons. C++ is the highest level development language I&#8217;ve seen used for an ASIC.<br />The impact of this choice, while understandable, is low readability and a lack of support for modern development tools and techniques.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-61b5160 elementor-widget elementor-widget-heading" data-id="61b5160" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Architecture and Code Cleanliness</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-018c219 elementor-widget elementor-widget-text-editor" data-id="018c219" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>I&#8217;m certainly not saying that it&#8217;s impossible to develop cleanly architected code on an embedded system, but there does seem to be such a focus on resource limitations that often code readability and efforts to ensure low coupling are de-prioritised in order to squeeze that extra bit of performance out of the device. I&#8217;m sure this is not limited to embedded systems, but it is a pervasive pressure on them.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4579004 elementor-widget elementor-widget-text-editor" data-id="4579004" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Why does this create a challenge for agility? Low readability impacts the speed at which code can be understood and changed, high coupling reduces the safety of making changes without unwanted side effects. Effective agility requires that you can make software changes with maximum speed and minimum uncertainty.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-75efd86 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="75efd86" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-519db8c elementor-column elementor-col-100 elementor-top-column" data-id="519db8c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f75005a elementor-widget elementor-widget-heading" data-id="f75005a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Testability</h4>		</div>
+				</div>
+				<section class="elementor-element elementor-element-c6f1aec elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="c6f1aec" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1f2a105 elementor-column elementor-col-100 elementor-inner-column" data-id="1f2a105" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-dde0ecb elementor-widget elementor-widget-text-editor" data-id="dde0ecb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>A critical element of agility is having high confidence in the robustness of your software at all times. In order to achieve this confidence, you need effective automated testing.<br />Embedded suffers with several significant testability challenges.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-45233c0 elementor-widget elementor-widget-heading" data-id="45233c0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Speed</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-38c4074 elementor-widget elementor-widget-text-editor" data-id="38c4074" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>How quickly can you run a test for new code on the target device? Typically the device needs to be re-programmed before you even start the test, this can take significant time depending on the size of the application the NAND (common low-cost non volatile memory used in embedded systems) write speed and a host of other potential bottlenecks.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ea8bed2 elementor-widget elementor-widget-text-editor" data-id="ea8bed2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>On top of this, you typically can&#8217;t run the test framework on the device itself due to resource constraints, so a test machine will be poking at it over various IO interfaces and polling on responses.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4070912 elementor-widget elementor-widget-text-editor" data-id="4070912" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This may only increase test run time by a matter of milliseconds per test, but these milliseconds quickly add up. <br />For effective agility, we&#8217;re going to want to complete a build, setup, test and teardown within a reasonable time to enable continuous integration.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-88d3984 elementor-widget elementor-widget-heading" data-id="88d3984" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">On-Target Testing Reliability</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0acf398 elementor-widget elementor-widget-text-editor" data-id="0acf398" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>What is worse than slow test suites when trying to establish continuous integration? Flaky tests!<br />What&#8217;s the most infuriating cause of flaky tests? Flaky hardware.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2f3dd15 elementor-widget elementor-widget-text-editor" data-id="2f3dd15" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>You&#8217;re likely to be running on-target testing using numerous 3rd party devices such as Flash programmers, signal generators, USB hubs, programmable power sockets, adaptors, wires and a host of other ad-hoc hardware that may not be designed for prolonged test robustness. On top of this, for the most critical phase of your project you&#8217;ll be running tests on pre-production hardware &#8211; highly likely to be less than flawless.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-23e96e0 elementor-widget elementor-widget-heading" data-id="23e96e0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Write Cycle Limitations</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3704bc7 elementor-widget elementor-widget-text-editor" data-id="3704bc7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Partially due to the nature of NAND flash, but exacerbated by the likelihood that you&#8217;ll be using close to 100% of it due to the resource constraints we covered earlier, plus the limited wear-levelling options you have when programming devices for test.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-753d5ec elementor-widget elementor-widget-text-editor" data-id="753d5ec" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>For those not familiar with NAND flash, it&#8217;s typically the non-volatile memory used in SSDs, USB flash drives, memory cards and other embedded devices. It&#8217;s low cost and decently fast, but suffers from some drawbacks like memory wear. Memory wear is, as it&#8217;s name suggests, is a limitation in which any particular block of memory has an average number of write/erase cycles before it becomes unusable. The limit is large, but CI runs a lot.</p><p>It&#8217;s not unusual to see target hardware start failing well within a year due to this limitation, in my experience.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-0111068 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="0111068" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-bd44d59 elementor-column elementor-col-100 elementor-top-column" data-id="bd44d59" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-364d611 elementor-widget elementor-widget-heading" data-id="364d611" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Customer Feedback Hurdles</h4>		</div>
+				</div>
+				<section class="elementor-element elementor-element-0edb450 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="0edb450" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a4fe5d3 elementor-column elementor-col-100 elementor-inner-column" data-id="a4fe5d3" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6d7dd93 elementor-widget elementor-widget-text-editor" data-id="6d7dd93" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>What is agility without feedback? The ideal place to get this feedback is from customers. We suffer on this front with embedded development too, here are a few of the key reasons.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f068b79 elementor-widget elementor-widget-heading" data-id="f068b79" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Your Customer Needs Your Hardware</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2c013f6 elementor-widget elementor-widget-text-editor" data-id="2c013f6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In order to be any use at all, the customer(s) need your hardware in order to try the product and provide feedback. Unfortunately, the time you could really use this the most is before you&#8217;ve hit mass production. Your walking skeleton is ready, but you only have a dozen devices from a short, low cost (high cost per unit, low cost in total) pre-production run.</p><p>No one has this problem with PC software, a website or a cloud service &#8211; all the hardware required for those are ubiquitous.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f5274a5 elementor-widget elementor-widget-heading" data-id="f5274a5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Connectivity Limitations</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-abf7df6 elementor-widget elementor-widget-text-editor" data-id="abf7df6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>A device without connectivity can&#8217;t be updated. This is becoming less of a problem over time as IoT takes off (replaced with a myriad of other problems), but even if a device has an active connection to the internet, there are significant constraints around the connectivity needed to provide software updates.<br />Is it acceptable to drain a bunch of battery power or interrupt functionality to perform a SW update &amp; how often?</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a2ddaeb elementor-widget elementor-widget-heading" data-id="a2ddaeb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">UI Limitations</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ca64e58 elementor-widget elementor-widget-text-editor" data-id="ca64e58" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>How do I get the customer feedback once we&#8217;re out in the field? How can we check with the user if it&#8217;s ok to accept a SW update and reboot?</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-313fbcb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="313fbcb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-701e651 elementor-column elementor-col-100 elementor-top-column" data-id="701e651" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9e617db elementor-widget elementor-widget-heading" data-id="9e617db" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Nice Rant - So What Are Our Options?</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6399a91 elementor-widget elementor-widget-text-editor" data-id="6399a91" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>I think there is some value in just raising awareness of the challenges &amp; opening it up for debate; but it&#8217;s fair to say that it&#8217;s even more useful to suggest ways to address these challenges, so here are my 2 cents:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-54038bb elementor-widget elementor-widget-heading" data-id="54038bb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Hardware Production Timelines and Costs</h6>		</div>
+				</div>
+				<section class="elementor-element elementor-element-5692b04 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="5692b04" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-071b7a0 elementor-column elementor-col-100 elementor-inner-column" data-id="071b7a0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-23f9aa6 elementor-widget elementor-widget-text-editor" data-id="23f9aa6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Probably the most challenging aspect as agility is only valuable when change is low cost. Technically, though, there is very little difference between long term planning for hardware and long term planning for marketing/key demos/investors. There key here is to identify your options for iterative HW development early.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5a099e1 elementor-widget elementor-widget-text-editor" data-id="5a099e1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This may be achieved with Emulation, Simulation, mimicking functionality by strapping existing hardware together, and/or finding a manufacturing partner that specialises in rapid prototype development (they do exist).<br />Each of these options come with nuanced limitations as to how well they can simulate your targeted product along with differing benefits to you and your customers.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b9bf5de elementor-widget elementor-widget-text-editor" data-id="b9bf5de" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Identify your priorities for Hardware agility (e.g. Verifying software logic, demoing real world use, the importance of form factor, key areas for feedback) and choose the most appropriate options.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-9f108cf elementor-widget elementor-widget-heading" data-id="9f108cf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Inflexible Customer Contracts​</h6>		</div>
+				</div>
+				<section class="elementor-element elementor-element-6ab09d6 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="6ab09d6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1cb3b46 elementor-column elementor-col-100 elementor-inner-column" data-id="1cb3b46" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-46b3fcc elementor-widget elementor-widget-text-editor" data-id="46b3fcc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Although a common challenge for agility in other fields, I do believe embedded is particularly hard hit on this one.<br />The most affective approach you can employ here is to try to work with your customer(s) to take a step back from the detailed requirements list. What are the outcomes that the customer wants to achieve, and how would they prioritise them? This can be a tough conversation, but your goal is to understand the real business value of the product, from your customers view.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c77111c elementor-widget elementor-widget-text-editor" data-id="c77111c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>From this, collaboratively build a contract that identifies the required outcomes, rather than specific, detailed outputs. This both gives you the required wiggle room to manage scope, build an early walking skeleton and provides you with an opportunity to get creative on the work not done, all while addressing the customers real value rather than ticking off a requirements list.<br />This will not be perfect and is not the end of the story, of course, close customer collaboration and feedback needs to be maintained throughout.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c4fec1d elementor-widget elementor-widget-text-editor" data-id="c4fec1d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>No doubt this is a poor second place to a rolling service contract &amp; requires a customer that&#8217;s willing to collaborate, but will be a step in the right direction.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-ce7803e elementor-widget elementor-widget-heading" data-id="ce7803e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Resource Limitations</h6>		</div>
+				</div>
+				<section class="elementor-element elementor-element-b2c75a1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="b2c75a1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-8ec7dd0 elementor-column elementor-col-100 elementor-inner-column" data-id="8ec7dd0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-31da73b elementor-widget elementor-widget-text-editor" data-id="31da73b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This is a challenge that most embedded product developers are fully aware of and will typically create early evaluation prototypes with increased resources to allow for a smoother software development process.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a3077fe elementor-widget elementor-widget-text-editor" data-id="a3077fe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This does not address the issues around selection of programming language and adherence to good architectural &amp; development practice in order to enable agility. The first question to ask ourselves is &#8220;Are we really improving efficiency when we sacrifice clean architecture and code?&#8221;, how good is our compiler at optimising for us? These are not questions that can be answered wholesale, but consider refactoring some area of the application and comparing code size and execution clock cycles before and after. No doubt some areas are more efficient in assembler, but how would an OO structure actually compare to Functional?</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e0f9d0e elementor-widget elementor-widget-text-editor" data-id="e0f9d0e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The ASICs that a certain company I worked for designed had the vast majority of the firmware written in C++ instead of C &#8211; these ASICs were all about efficiency, powering USB hubs supporting multiple displays and other peripherals at lightening speed. It can be done.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-10d69de elementor-widget elementor-widget-heading" data-id="10d69de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Testability</h6>		</div>
+				</div>
+				<section class="elementor-element elementor-element-1b59b21 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="1b59b21" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-83e20b1 elementor-column elementor-col-100 elementor-inner-column" data-id="83e20b1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e16a696 elementor-widget elementor-widget-text-editor" data-id="e16a696" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>There really is no substitute for testing on target, but you can look at ways to ensure it&#8217;s not throttling your software development pipeline.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b291a70 elementor-widget elementor-widget-text-editor" data-id="b291a70" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>At an embedded security company I worked for, we suffered with 30+ minute CI pipelines even after spending significant time and effort refactoring and parallelising the jobs. The target hardware were third party prototypes and we lacked simulation &amp; quantity. We ended up taking the approach of building a framework with cross compiled firmware to run on a PC in order to test basic code logic and segregated the testing coverage between commit and overnight runs.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-237c22e elementor-widget elementor-widget-text-editor" data-id="237c22e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Commit testing included what we defined as &#8216;core features&#8217;, which included the functionality behind our core offering to the market. Overnight testing checked compatibility and performance across less typical configurations.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bd8f745 elementor-widget elementor-widget-text-editor" data-id="bd8f745" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>As for reliability issues with target test setups, I have considered setting up a website where those maintaining embedded CI rigs can suggest and review various hardware that offers good reliability and features relevant for CI. In my experience, there are a lot of shared needs across companies using embedded test setups. As for now, the best advice I can offer is ask the wider community, review what places like kernelci are using and other boardfarms for public domain software. Don&#8217;t pick cheap equipment, you&#8217;ll lose far more than you save on maintenance and debugging (and probably buying something else in the end).</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-c194f0b elementor-widget elementor-widget-heading" data-id="c194f0b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Customer Feedback Hurdles</h6>		</div>
+				</div>
+				<section class="elementor-element elementor-element-6419823 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="6419823" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-58b095f elementor-column elementor-col-100 elementor-inner-column" data-id="58b095f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-61910e4 elementor-widget elementor-widget-text-editor" data-id="61910e4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Finally, then, how do we get the feedback we need?<br />To be honest, if your device does not have some form of data connection to the outside world, a lot of what I am about to suggest is not possible and it&#8217;s not within my expertise to advise on that, unfortunately. However, for those that do&#8230;<br />It can&#8217;t be overstated how important it is to design in a secure software update mechanism if at all possible &#8211; this is not just for providing customers with updates, but also to mitigate the huge security risks that IoT devices face (and I believe, these days, it&#8217;s written into law in many jurisdictions).</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-99fed9c elementor-widget elementor-widget-text-editor" data-id="99fed9c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>If you&#8217;re here are lacking the expertise locally, there are specialist companies now that offer solutions to enable secure software updates on embedded devices, along with IP protection and more. SecureThingz is one that I&#8217;m aware of.<br />Next up, logging. For any connected device, prioritise the ability to log the state transitions and accompanying timestamps of your device to a location that you can access. There are some legal considerations around this once the devices are in the field, so have a legal team advise you on what can and can&#8217;t be done. Your CI and local testing can help you hone your logging to be as useful as possible.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-94f144d elementor-widget elementor-widget-text-editor" data-id="94f144d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Finally, ensure you build a customer portal for capturing feedback, if your on-device options are limited. Ensure that for bugs and/or unexpected behaviour you&#8217;re able to identify the corresponding log and time in order to investigate.<br />Getting customers interacting with your product:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d7f9edb elementor-widget elementor-widget-text-editor" data-id="d7f9edb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>If you&#8217;re working B2B</strong></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3bd1222 elementor-widget elementor-widget-text-editor" data-id="3bd1222" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>It seems obvious, but budget for and get early prototypes out to customers as well as to your engineers. There&#8217;s often a fear around showing something to a customer that isn&#8217;t polished, I believe this fear needs to be confronted and become fearless prototyping to be a standard way of working.<br />If it&#8217;s not possible to send physical hardware to customers, consider if there is a way to sensibly mimic the user experience of the product using simulation. If you anticipate this product to evolve on your roadmap, it will be a worthwhile investment.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fc2f1b7 elementor-widget elementor-widget-text-editor" data-id="fc2f1b7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>If you&#8217;re working B2C</strong></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0f7c079 elementor-widget elementor-widget-text-editor" data-id="0f7c079" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>It&#8217;s a little harder to manage, but getting early beta trials out is important. I&#8217;ve worked with companies like CenterCode that will manage the selection, distribution and contact with members of the public that are keen to try out new devices on the understanding that they won&#8217;t be polished. In my experience, you will get reasonably high quality, candid feedback from people who are engaged and understand that you are in development and want to help you deliver a great product.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-36445a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="36445a0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-d8a833c elementor-column elementor-col-100 elementor-top-column" data-id="d8a833c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d8b6ae6 elementor-widget elementor-widget-text-editor" data-id="d8b6ae6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>So that is my overview of the challenges for embedded software development adopting Agile, I hope that some of it has been helpful. I&#8217;m very interested in differing opinions and options. I do think that this industry could benefit heavily from addressing some of these challenges and identifying any others that hold us back too.<br />Thanks for reading.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/the-agility-challenge-for-embedded-software/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Focus on outcomes with OKRs</title>
+		<link>/focus-on-outcomes-with-okrs/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2020 12:47:54 +0000</pubDate>
+				<category><![CDATA[OKRS]]></category>
+		<guid isPermaLink="false">/?p=1354</guid>
+
+					<description><![CDATA[If you&#8217;re interested in a way to tap into your team or companies creative potential, generating alignment and delivering tangible value, then OKRs should be your first port of call. I was fortunate enough to have met, and worked closely with Ragan McGill while I was at DisplayLink. Ragan had experienced both effective and underwhelming use &#8230;<p class="read-more"> <a class="" href="/focus-on-outcomes-with-okrs/"> <span class="screen-reader-text">Focus on outcomes with OKRs</span> Read More &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1354" class="elementor elementor-1354" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-44ae5c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="44ae5c8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7842942 elementor-column elementor-col-100 elementor-top-column" data-id="7842942" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-55bdb2d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="55bdb2d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5e82d4e elementor-column elementor-col-100 elementor-inner-column" data-id="5e82d4e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4b92f0e elementor-widget elementor-widget-text-editor" data-id="4b92f0e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>If you&#8217;re interested in a way to tap into your team or companies creative potential, generating alignment and delivering tangible value, then OKRs should be your first port of call.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0c924f9 elementor-widget elementor-widget-text-editor" data-id="0c924f9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>I was fortunate enough to have met, and worked closely with <a href="http://raganmcgill.co.uk/">Ragan McGill</a> while I was at DisplayLink. Ragan had experienced both effective and underwhelming use of OKRs in his career and gave a set of training on how to ensure that they are well formed and deliver on their potential.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0577293 elementor-widget elementor-widget-text-editor" data-id="0577293" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>I was inspired by the ideas and, after having put them to practice ourselves, am now completely sold. As a result, I had worked on my own presentation of the ideas and started coaching the teams in the company that were struggling with the concept.</p><p>This post tries to cover the core ideas, so that you can tap into the potential of OKRs too.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4fe32fd elementor-widget elementor-widget-heading" data-id="4fe32fd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What Are OKRs?</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-d916bbc elementor-widget elementor-widget-text-editor" data-id="d916bbc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Obvious first question. =)<br />OKRs stand for Objectives and Key Results and they are a framework for goal setting. Here&#8217;s a basic overview, we&#8217;ll go into more detail in a moment.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-23fb196 elementor-widget elementor-widget-image" data-id="23fb196" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="561" src="/wp-content/uploads/2020/09/OKRs_overview-1024x561.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/OKRs_overview-1024x561.png 1024w, /wp-content/uploads/2020/09/OKRs_overview-300x164.png 300w, /wp-content/uploads/2020/09/OKRs_overview-768x420.png 768w, /wp-content/uploads/2020/09/OKRs_overview.png 1158w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-891330c elementor-widget elementor-widget-heading" data-id="891330c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Why OKRs?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-771b366 elementor-widget elementor-widget-text-editor" data-id="771b366" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>I&#8217;ve already touched on this in the opening paragraph, but to expand on that.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a9bfefb elementor-widget elementor-widget-image" data-id="a9bfefb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="227" src="/wp-content/uploads/2020/09/OKRs_why-1024x227.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/OKRs_why-1024x227.png 1024w, /wp-content/uploads/2020/09/OKRs_why-300x66.png 300w, /wp-content/uploads/2020/09/OKRs_why-768x170.png 768w, /wp-content/uploads/2020/09/OKRs_why-1536x340.png 1536w, /wp-content/uploads/2020/09/OKRs_why.png 1733w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0c80f46 elementor-widget elementor-widget-text-editor" data-id="0c80f46" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>Alignment in where we want to go and what success looks like. OKRs provide this alongside f<span style="font-size: 14px;">lexibility in how we get there.</span></li><li>Teams are empowered as they have autonomy on how to achieve the objectives</li><li>Once the teams are on the same page, collaboration is enhanced and t<span style="font-size: 14px;">he objective should be challenging which, alongside empowerment/flexibility, helps promote creativity.</span></li><li>The focus of our efforts moves from ‘features’ to value.</li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-96bf898 elementor-widget elementor-widget-heading" data-id="96bf898" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">The Focus On Value</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f231ba3 elementor-widget elementor-widget-text-editor" data-id="f231ba3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Traditional project management may start with a value proposition, but once the project is in execution, it&#8217;s rare that the teams understand the value or that it ever gets reviewed. The focus is primarily on achieving the outputs with a focus on inputs, activities and the output timeline.<br />Taking the INTRAC result chain to illustrate:</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4c3eeb8 elementor-widget elementor-widget-image" data-id="4c3eeb8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="157" src="/wp-content/uploads/2020/09/OKRs_intrac-1024x157.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/OKRs_intrac-1024x157.png 1024w, /wp-content/uploads/2020/09/OKRs_intrac-300x46.png 300w, /wp-content/uploads/2020/09/OKRs_intrac-768x117.png 768w, /wp-content/uploads/2020/09/OKRs_intrac-1536x235.png 1536w, /wp-content/uploads/2020/09/OKRs_intrac.png 1556w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-21bfb3d elementor-widget elementor-widget-text-editor" data-id="21bfb3d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The INTRAC results chain maps to OKRs and Actions in the following way. Are you spending all you time focusing on Actions?</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-230608a elementor-widget elementor-widget-image" data-id="230608a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="222" src="/wp-content/uploads/2020/09/OKRs_intrac_labelled-1024x222.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/OKRs_intrac_labelled-1024x222.png 1024w, /wp-content/uploads/2020/09/OKRs_intrac_labelled-300x65.png 300w, /wp-content/uploads/2020/09/OKRs_intrac_labelled-768x167.png 768w, /wp-content/uploads/2020/09/OKRs_intrac_labelled.png 1488w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-61c7055 elementor-widget elementor-widget-text-editor" data-id="61c7055" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>OKRs enable you to maintain focus on the impact you want and monitor your progress with measurable outcomes. Rely on the creativity and skills of your teams to decide on the actions required to achieve these.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-255e0ac elementor-widget elementor-widget-heading" data-id="255e0ac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">An Analogy</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-f5e9a90 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="f5e9a90" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7a2c774 elementor-column elementor-col-50 elementor-top-column" data-id="7a2c774" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-7cc49df elementor-widget elementor-widget-image" data-id="7cc49df" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="553" height="304" src="/wp-content/uploads/2020/09/journey.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/journey.png 553w, /wp-content/uploads/2020/09/journey-300x165.png 300w" sizes="(max-width: 553px) 100vw, 553px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-28b3eb1 elementor-column elementor-col-50 elementor-top-column" data-id="28b3eb1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8165ada elementor-widget elementor-widget-text-editor" data-id="8165ada" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Imagine this is you. Think of the Objective in an OKR to be a place you want to reach, illustrated here by the peak of a glorious mountain, depicted in the computer game <a href="https://thatgamecompany.com/journey/">Journey</a>.</p><p>Even to you, the path to get there is not completely clear.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b6582a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b6582a4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-466bec0 elementor-column elementor-col-100 elementor-top-column" data-id="466bec0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-375ad18 elementor-widget elementor-widget-text-editor" data-id="375ad18" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Worse still, you are not going to be the one taking the majority of the actions in order to get there, you have teams of experts that you need to draw on.<br />For your teams, the Objective is even less clear than for you.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-37fd448 elementor-widget elementor-widget-text-editor" data-id="37fd448" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Imagine your teams are at the controls of a ridiculously complex vehicle filled with different, specialist kit that need to work in unison to get the thing moving at all, let alone in the right direction. Some of the specialist stations can&#8217;t even see out of the window, and for those that can, it&#8217;s awfully foggy outside.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4932e23 elementor-widget elementor-widget-text-editor" data-id="4932e23" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Fortunately, you have the ability to work with the team to define and monitor KRs.</p><p>You can think of KRs as a set of metrics that, together, reasonably identify whether you have reached your Objective.</p><p>Importantly, the teams need to have these metrics highly visible to them and they should be points on a measure that&#8217;s updating in real time.</p><p>An example of this, extending the Journey analogy, is Latitude or Longitude. If you know that the peak of your mountain (objective) is at 51.1789° N, 1.8262° W then these could be your Key Results. Given your teams have Latitude and Longitude metrics available to them &#8211; then every action they take results in moving the current metrics closer or further away from the Key Results.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-dee612b elementor-widget elementor-widget-text-editor" data-id="dee612b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>So think of KRs as points on a measurable scale. Imagine your teams looking at a dashboard with the KRs marked out on various dials and gauges. Even though it&#8217;s low visibility to the Objective, every action they take changes the measurements to let them know if they&#8217;re getting closer or further away.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f44ffbe elementor-widget elementor-widget-image" data-id="f44ffbe" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+							<figure class="wp-caption">
+										<img width="1024" height="718" src="/wp-content/uploads/2020/09/OKRs_gauges-1024x718.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/OKRs_gauges-1024x718.png 1024w, /wp-content/uploads/2020/09/OKRs_gauges-300x210.png 300w, /wp-content/uploads/2020/09/OKRs_gauges-768x539.png 768w, /wp-content/uploads/2020/09/OKRs_gauges.png 1206w" sizes="(max-width: 1024px) 100vw, 1024px" />											<figcaption class="widget-image-caption wp-caption-text">Looking out into the fog, your team works on actions to get their measurements moving towards the KRs (represented as stars on the dashboard readings in this illustration).</figcaption>
+										</figure>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f54c224 elementor-widget elementor-widget-heading" data-id="f54c224" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Setting Effective OKRs</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-71df9c9 elementor-widget elementor-widget-text-editor" data-id="71df9c9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The types of mistakes I see often are:</p><ul><li>Having too many OKRs</li></ul><p>To get the most out of people, they need focus. It&#8217;s extremely tempting to list lots of OKRs to cover all the grea things we want to do. Take them one or two at a time and be aware that not all work must sit within an OKR. They are used for pushing the barriers, not dealing with Business as usual.</p><ul><li>The bosses KRs becoming the subordinates Objectives</li></ul><p>Objectives are Impacts and Key Results are Outcomes. They are fundamentally different concepts. It&#8217;s abolutely understandable for teams to generate lower level OKRs of their own based on higher level ones, but don&#8217;t assign KRs as Objectives, it&#8217;s not meaningful.</p><ul><li>Trying to shoehorn known work into OKRs</li></ul><p>Similarly to the &#8220;having too many OKRs&#8221; mistake, looking at the actions first and trying to create OKRs to capture them is exactly backwards. Manage actions you know you want to take in a different way, if it&#8217;s important for you. OKRs lose most of their value if the focus on Outcomes and Impact is lost.</p><ul><li>Dressing up Outputs and Activities as Objectives and Key Results</li></ul><p>We&#8217;re so used to thinking about projects, the actions that need to be done and the releases that need to be made, it&#8217;s a difficult mind shift to step away from that and take daunting steps into measuring aspects that you don&#8217;t have full control over. However, if creating value was just a case of doing some actions, we&#8217;d all be perfectly able to start our own businesses and succeed. Unfortunately it isn&#8217;t that easy, we don&#8217;t have direct control, but we need to embrace that fact in order to compete effectively.</p><ul><li>Objections that the OKRs are not solely influenced by our actions</li></ul><p>As above, this is a scary thought. The culture of the business you work in does play a big factor in how much this manifests as an issue. If the culture is one of support and collaboration, we&#8217;re going to reap rewards from this appraoch. If it is a culture of blame and politics, work on sorting that out first. =)</p><p>Remember:</p><ul><li>OKRs are difficult to do well, try your best and iterate</li><li>Achieving 70% of your KRs is a success</li></ul></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-7559da8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="7559da8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1106e14 elementor-column elementor-col-100 elementor-top-column" data-id="1106e14" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-7de2783 elementor-widget elementor-widget-divider" data-id="7de2783" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-e7efcb2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e7efcb2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a6dc6b3 elementor-column elementor-col-50 elementor-top-column" data-id="a6dc6b3" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b6e31b7 elementor-widget elementor-widget-heading" data-id="b6e31b7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Objectives</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fea44d1 elementor-widget elementor-widget-text-editor" data-id="fea44d1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>Objectives are Impacts</li><li>Make them a destination</li><li>Make them inspiring</li><li>Make them challenging</li><li>Explain why, use &#8220;so that&#8221;</li><li>Start with 1 or 2</li></ul></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-db22753 elementor-column elementor-col-50 elementor-top-column" data-id="db22753" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-58c6913 elementor-widget elementor-widget-image" data-id="58c6913" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="660" src="/wp-content/uploads/2020/09/OKRs_how-1024x660.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/OKRs_how-1024x660.png 1024w, /wp-content/uploads/2020/09/OKRs_how-300x193.png 300w, /wp-content/uploads/2020/09/OKRs_how-768x495.png 768w, /wp-content/uploads/2020/09/OKRs_how.png 1186w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-dfbca2c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="dfbca2c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-341f571 elementor-column elementor-col-100 elementor-top-column" data-id="341f571" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-94c8a27 elementor-widget elementor-widget-divider" data-id="94c8a27" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-cc06949 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="cc06949" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f1d0e0f elementor-column elementor-col-50 elementor-top-column" data-id="f1d0e0f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-63e438e elementor-widget elementor-widget-image" data-id="63e438e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="/wp-content/uploads/elementor/thumbs/speedometer-1063350_640-ovb4cbvnlm9xqbiw02akdvnkzq7yghml4pqbe9l13k.png" title="speedometer-1063350_640" alt="speedometer-1063350_640" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-c49979f elementor-column elementor-col-50 elementor-top-column" data-id="c49979f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-dc0bb1d elementor-widget elementor-widget-heading" data-id="dc0bb1d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Key Results</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d2aaf32 elementor-widget elementor-widget-text-editor" data-id="d2aaf32" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>KRs are Outcomes</li><li>Define what success looks like</li><li><span style="font-size: 14px;">Make them numerical</span></li><li><span style="font-size: 14px;">Use a scale that can be measured in real time (or as close as possible)</span></li><li>Avoid binary KRs</li><li>Avoid actions. If you can achieve it directly, it&#8217;s not a KR.</li><li>Include the initial value of the metric when describing the KR e.g. &#8220;Decrease defects in the field from 100 to 10&#8221;</li></ul></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-de31787 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="de31787" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-74eaaa2 elementor-column elementor-col-100 elementor-top-column" data-id="74eaaa2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-dea8dce elementor-widget elementor-widget-divider" data-id="dea8dce" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-a46e394 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="a46e394" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-adace6e elementor-column elementor-col-100 elementor-top-column" data-id="adace6e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-964b2f3 elementor-widget elementor-widget-heading" data-id="964b2f3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">In Conclusion</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-dc1ed07 elementor-widget elementor-widget-text-editor" data-id="dc1ed07" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>OKRs are extremely powerful when used well and in the right company culture. I hope this post has helped you understand and apply them better for your business.</p><p>I leave you with a summary adding actions, as a concept, into the mix.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6013d59 elementor-widget elementor-widget-image" data-id="6013d59" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="416" src="/wp-content/uploads/2020/09/OKRs_conclusion-1024x416.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/09/OKRs_conclusion-1024x416.png 1024w, /wp-content/uploads/2020/09/OKRs_conclusion-300x122.png 300w, /wp-content/uploads/2020/09/OKRs_conclusion-768x312.png 768w, /wp-content/uploads/2020/09/OKRs_conclusion-1536x624.png 1536w, /wp-content/uploads/2020/09/OKRs_conclusion.png 1874w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>7 practical steps to increase accountability in agile teams</title>
 		<link>/7-practical-steps-to-increase-accountability-in-agile-teams/</link>
-					<comments>/7-practical-steps-to-increase-accountability-in-agile-teams/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 10 Sep 2020 19:16:20 +0000</pubDate>
@@ -202,8 +1156,6 @@ It is certainly true that if a team doesn&#8217;t deliver anything then it is pr
 		</div>
 		]]></content:encoded>
 					
-					<wfw:commentRss>/7-practical-steps-to-increase-accountability-in-agile-teams/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
