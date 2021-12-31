@@ -8,519 +8,493 @@
 	>
 
 <channel>
-	<title>People &#8211; paulblay</title>
+	<title>People &#8211; Paul Blay on software management</title>
 	<atom:link href="/category/people/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>Paul Blay on Software Management</description>
-	<lastBuildDate>Fri, 11 Sep 2020 13:28:20 +0000</lastBuildDate>
+	<link></link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2021 10:58:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.5.1</generator>
-
-<image>
-	<url>/wp-content/uploads/2020/06/cropped-favicon-32x32.png</url>
-	<title>People &#8211; paulblay</title>
-	<link>/</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
+	<generator>https://wordpress.org/?v=5.8.2</generator>
 	<item>
 		<title>7 practical steps to increase accountability in agile teams</title>
 		<link>/7-practical-steps-to-increase-accountability-in-agile-teams/</link>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Thu, 10 Sep 2020 19:16:20 +0000</pubDate>
+		<dc:creator><![CDATA[shpinkso]]></dc:creator>
+		<pubDate>Wed, 22 Dec 2021 14:49:54 +0000</pubDate>
 				<category><![CDATA[Development]]></category>
 		<category><![CDATA[People]]></category>
-		<guid isPermaLink="false">/?p=1339</guid>
+		<guid isPermaLink="false">/?p=126</guid>
 
-					<description><![CDATA[Individual and team accountability is critical for any high functioning team, I believe that this is often a concern for senior management, especially when considering an agile transformation, and can be difficult to attain. At the points in my career that I have seen senior management push back on the adoption of agile methodologies, the &#8230;<p class="read-more"> <a class="" href="/7-practical-steps-to-increase-accountability-in-agile-teams/"> <span class="screen-reader-text">7 practical steps to increase accountability in agile teams</span> Read More &#187;</a></p>]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1339" class="elementor elementor-1339" data-elementor-settings="[]">
-			<div class="elementor-inner">
-				<div class="elementor-section-wrap">
-							<section class="elementor-element elementor-element-ffe98a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ffe98a4" data-element_type="section">
+					<description><![CDATA[7 practical steps to increase accountability in agile teams At the points in my career that I have seen senior management push back on the adoption of agile methodologies, the main areas of contention has been around the feeling of losing “control” over the delivery roadmap. Agile methodologies accept and embrace the fact that the [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="126" class="elementor elementor-126" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-7addea29 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7addea29" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-4c145e2 elementor-column elementor-col-100 elementor-top-column" data-id="4c145e2" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-27708f2 elementor-widget elementor-widget-text-editor" data-id="27708f2" data-element_type="widget" data-widget_type="text-editor.default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-67dc37e1" data-id="67dc37e1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e910b87 elementor-widget elementor-widget-heading" data-id="e910b87" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">Individual and team accountability is critical for any high functioning team, I believe that this is often a concern for senior management, especially when considering an agile transformation, and can be difficult to attain.</div>
+			<style>/*! elementor - v3.5.0 - 12-12-2021 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">7 practical steps to increase accountability in agile teams</h1>		</div>
 				</div>
-				</div>
-				<div class="elementor-element elementor-element-85ea17d elementor-widget elementor-widget-text-editor" data-id="85ea17d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-23fe9f58 elementor-widget elementor-widget-text-editor" data-id="23fe9f58" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>At the points in my career that I have seen senior management push back on the adoption of agile methodologies, the main areas of contention has been around the feeling of losing &#8220;control&#8221; over the delivery roadmap.</p></div>
+			<style>/*! elementor - v3.5.0 - 12-12-2021 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<!-- wp:image {"id":127,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img loading="lazy" width="1024" height="408" src="/wp-content/uploads/2021/12/soldier-996536_1280thin-1024x408-1.jpg" alt="" class="wp-image-127" srcset="/wp-content/uploads/2021/12/soldier-996536_1280thin-1024x408-1.jpg 1024w, /wp-content/uploads/2021/12/soldier-996536_1280thin-1024x408-1-300x120.jpg 300w, /wp-content/uploads/2021/12/soldier-996536_1280thin-1024x408-1-768x306.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Individual and team accountability is critical for any high functioning team, I believe that this is often a concern for senior management, especially when considering an agile transformation, and can be difficult to attain.</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>At the points in my career that I have seen senior management push back on the adoption of agile methodologies, the main areas of contention has been around the feeling of losing “control” over the delivery roadmap.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Agile methodologies accept and embrace the fact that the “control” of the future is illusionary, based on the fact that we are poor predictors of future events and that communication is never perfect.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Along the same lines, it’s very easy to understand how to apply accountability in a waterfall model – “You are accountable for delivering all the written requirements by the agreed time.”… Easy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This, of course, ignores whether the written requirements are actually valuable if delivered at the agreed time. It ignores that the requirements are likely to be imperfect, incomplete or that any (inevitable) change will happen. It ignores that the work involved in delivering the features must be an estimate, an educated guess, an unreliable prediction, and the cost incurred by pretending that it’s not.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>… But it’s so easy… And I, as a busy senior manager, can stop spending time thinking about the project after it’s kicked off all the way up until it’s delivered, I don’t have to learn or understand the implications of change, I can look even further forward now that I know what’s coming – I feel that we have established control over the future and that makes it easier to sleep at night.<br>It’s no big stretch to see why these beliefs are so seductive.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>So how do I sleep at night and free up more time as a senior manager in an Agile environment? How do I ensure that my teams are accountable for delivering the maximum value for the business if we don’t have a big requirements sign off and plan of record?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The good news is that accountability is not only achievable, but likely to deliver far better results than plan-of-record style accountability, if you put the right framework in place. Here are techniques and approaches that I have found to be successful at various levels of the business.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Utilise OKRs</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Make the goal measurable. OKRs provide a framework for empowering teams, unleashing creativity and ensuring accountability. OKRs are outcome focused, not output focussed like a requirements document and a plan of record. The Key Results are your metrics for monitoring the progress of your teams on achieving the outcomes. With the right OKRs there’s no room for dropping quality to achieve output deadlines, or political manoeuvring to make something sound more successful than it really was. Keep your teams accountable while adding measurable business value.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Ensure Continuous Delivery</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you hear a contention like</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p><em>“I worked with a team that ran agile and another that ran waterfall. The agile team were engaged and creative but never delivered anything. The waterfall team delivered.”</em></p></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Then the agile teams in that scenario were not running continuous delivery. It is certainly true that if a team doesn’t deliver anything then it is producing no value. In fairness, I have seen this happen and it can lead to teams that live in the ‘comfort zone’, there’s an overly relaxed attitude and lack of accountability hiding behind a façade of agile reasoning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As a delivery manager, make sure your top priority is getting automated deliverable product happening as regularly as possible. Even if it doesn’t end up in customers hands every time use it to prove to yourself, and any internal stakeholders, that value is being added. In addition you provide opportunities to gather feedback and change direction, all based on working software, not reports.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Facilitate Close Customer Contact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Nothing keeps a team feeling more accountable than regular, direct customer contact. Caution is needed if this is introduced to a team unfamiliar with talking directly to customers, choose your participants wisely and offer coaching and support.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once a team is successfully engaged in direct communication with customers, the waste generated by layers of indirection and the risk of personal agendas being injected along the way is dramatically reduced. Everyone’s happier that they’re not spending time on unwanted or unexplained work and a focus on direct value delivery drives accountability.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Enable Component Ownership</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This aspect of ensuring accountability requires that the product architecture, supporting frameworks and team composition are coordinated to allow it, but the benefits are manifold.<br>Accountability sits proudly among the benefits, as a team that owns a component from cradle to grave naturally are accountable for the performance of that component.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Promote Pairing</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Looking closer at the hands-on work – pairing can be an extremely effective accountability measure, both in terms of ensuring good practice and consistent focus. Be sure to keep the pairings fresh to ensure learning is maximised and pairs aren’t stagnating.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Full-time pairing can be mentally exhausting when first introduced, it’s worth considering how this approach could be trialled initially with a roll out over time.<br>Some members, or entire teams, may push back on this approach, in which case, consider it an opportunity for a discussion on what team members do to hold each other to account and ideas build on that.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Hire for accountability</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Skills can be taught, personality traits like accountability are what set candidates apart. Accountability is born from a feeling of extreme ownership. Asking simple questions like “Do you take accountability for your work?” is obviously only going to get one answer in an interview, we need to look at more subtle ways of identifying clues.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The first thing I’d tend to look for is someone’s accountability for their own personal development. At the screening stage, look for extra curricular activity that’s in the public domain. For software engineers personal github projects and Linkedin certifications are a good place to start. Ask the candidate if they have any pet projects they want to demonstrate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once you at interview stage, probe on what the candidate has found to be particularly challenging in their career so far. Look for whether they accept personal responsibility for any mistakes and how comfortable they are in doing that.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To be accountable, you must be happy to take personal responsibility and have the drive to learn and improve.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Get Expectations Set Using RACI</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sometimes it’s just worth spelling it out. Using RACI can be helpful in this case.<br>My advice is not to try and boil the ocean with your RACI chart. Start with the big items that you think need clarifying first and keep evolving it as missing aspects are uncovered.<br>Like every good agile product, iterate!</p>
+<!-- /wp:paragraph -->						</div>
 				</div>
-				</div>
-				<div class="elementor-element elementor-element-f1a15ca elementor-widget elementor-widget-text-editor" data-id="f1a15ca" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Agile methodologies accept and embrace the fact that the &#8220;control&#8221; of the future is illusionary, based on the fact that we are poor predictors of future events and that communication is never perfect.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-778da40 elementor-widget elementor-widget-text-editor" data-id="778da40" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">Along the same lines, it&#8217;s very easy to understand how to apply accountability in a waterfall model &#8211; &#8220;You are accountable for delivering all the written requirements by the agreed time.&#8221;&#8230; Easy.</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-765d65e elementor-widget elementor-widget-text-editor" data-id="765d65e" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">This, of course, ignores whether the written requirements are actually valuable if delivered at the agreed time. It ignores that the requirements are likely to be imperfect, incomplete or that any (inevitable) change will happen. It ignores that the work involved in delivering the features must be an estimate, an educated guess, an unreliable prediction, and the cost incurred by pretending that it&#8217;s not.</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-1262e22 elementor-widget elementor-widget-text-editor" data-id="1262e22" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>&#8230; But it&#8217;s so easy&#8230; And I, as a busy senior manager, can stop spending time thinking about the project after it&#8217;s kicked off all the way up until it&#8217;s delivered, I don&#8217;t have to learn or understand the implications of change, I can look even further forward now that I know what&#8217;s coming &#8211; I feel that we have established control over the future and that makes it easier to sleep at night.<br />It&#8217;s no big stretch to see why these beliefs are so seductive.</p></div>
-				</div>
-				</div>
-						</div>
-			</div>
+					</div>
 		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-fb748c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="fb748c2" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-d46d4f9 elementor-column elementor-col-100 elementor-top-column" data-id="d46d4f9" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-acfe270 elementor-widget elementor-widget-text-editor" data-id="acfe270" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">So how do I sleep at night and free up more time as a senior manager in an Agile environment? How do I ensure that my teams are accountable for delivering the maximum value for the business if we don&#8217;t have a big requirements sign off and plan of record?</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-ef85bf2 elementor-widget elementor-widget-text-editor" data-id="ef85bf2" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>The good news is that accountability is not only achievable, but likely to deliver far better results than plan-of-record style accountability, if you put the right framework in place. Here are techniques and approaches that I have found to be successful at various levels of the business.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-420d7ae elementor-widget elementor-widget-heading" data-id="420d7ae" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Utilise OKRs</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-f4097d6 elementor-widget elementor-widget-text-editor" data-id="f4097d6" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">Make the goal measurable. OKRs provide a framework for empowering teams, unleashing creativity and ensuring accountability.
-OKRs are outcome focused, not output focussed like a requirements document and a plan of record. The Key Results are your metrics for monitoring the progress of your teams on achieving the outcomes. With the right OKRs there&#8217;s no room for dropping quality to achieve output deadlines, or political manoeuvring to make something sound more successful than it really was. Keep your teams accountable while adding measurable business value.</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-672519f elementor-widget elementor-widget-heading" data-id="672519f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Ensure Continuous Delivery</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-ea4361e elementor-widget elementor-widget-text-editor" data-id="ea4361e" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">If you hear a contention like
-</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-d9fef18 elementor-widget elementor-widget-text-editor" data-id="d9fef18" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><blockquote><p>&#8220;I worked with a team that ran agile and another that ran waterfall. The agile team were engaged and creative but never delivered anything. The waterfall team delivered.&#8221;</p></blockquote></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-9b621b7 elementor-widget elementor-widget-text-editor" data-id="9b621b7" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">Then the agile teams in that scenario were not running continuous delivery.
-It is certainly true that if a team doesn&#8217;t deliver anything then it is producing no value. In fairness, I have seen this happen and it can lead to teams that live in the &#8216;comfort zone&#8217;, there&#8217;s an overly relaxed attitude and lack of accountability hiding behind a façade of agile reasoning.</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-cbe22a6 elementor-widget elementor-widget-text-editor" data-id="cbe22a6" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">As a delivery manager, make sure your top priority is getting automated deliverable product happening as regularly as possible. Even if it doesn&#8217;t end up in customers hands every time use it to prove to yourself, and any internal stakeholders, that value is being added. In addition you provide opportunities to gather feedback and change direction, all based on working software, not reports.</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-a5e5e3a elementor-widget elementor-widget-heading" data-id="a5e5e3a" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Facilitate Close Customer Contact</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-bf6f9db elementor-widget elementor-widget-text-editor" data-id="bf6f9db" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Nothing keeps a team feeling more accountable than regular, direct customer contact. Caution is needed if this is introduced to a team unfamiliar with talking directly to customers, choose your participants wisely and offer coaching and support.</p><p><br />Once a team is successfully engaged in direct communication with customers, the waste generated by layers of indirection and the risk of personal agendas being injected along the way is dramatically reduced. Everyone&#8217;s happier that they&#8217;re not spending time on unwanted or unexplained work and a focus on direct value delivery drives accountability.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-4908c2a elementor-widget elementor-widget-heading" data-id="4908c2a" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Enable Component Ownership</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-21bc65a elementor-widget elementor-widget-text-editor" data-id="21bc65a" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>This aspect of ensuring accountability requires that the product architecture, supporting frameworks and team composition are coordinated to allow it, but the benefits are manifold.<br />Accountability sits proudly among the benefits, as a team that owns a component from cradle to grave naturally are accountable for the performance of that component.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-ec8ff90 elementor-widget elementor-widget-heading" data-id="ec8ff90" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Promote Pairing</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-1b9e2fa elementor-widget elementor-widget-text-editor" data-id="1b9e2fa" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Looking closer at the hands-on work &#8211; pairing can be an extremely effective accountability measure, both in terms of ensuring good practice and consistent focus. Be sure to keep the pairings fresh to ensure learning is maximised and pairs aren&#8217;t stagnating.</p><p>Full-time pairing can be mentally exhausting when first introduced, it&#8217;s worth considering how this approach could be trialled initially with a roll out over time.<br />Some members, or entire teams, may push back on this approach, in which case, consider it an opportunity for a discussion on what team members do to hold each other to account and ideas build on that.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-06955de elementor-widget elementor-widget-heading" data-id="06955de" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Hire for accountability</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-5f18008 elementor-widget elementor-widget-text-editor" data-id="5f18008" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">Skills can be taught, personality traits like accountability are what set candidates apart. Accountability is born from a feeling of extreme ownership. Asking simple questions like &#8220;Do you take accountability for your work?&#8221; is obviously only going to get one answer in an interview, we need to look at more subtle ways of identifying clues.</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-03e290b elementor-widget elementor-widget-text-editor" data-id="03e290b" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>The first thing I&#8217;d tend to look for is someone&#8217;s accountability for their own personal development. At the screening stage, look for extra curricular activity that&#8217;s in the public domain. For software engineers personal github projects and Linkedin certifications are a good place to start. Ask the candidate if they have any pet projects they want to demonstrate.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-7cbfe24 elementor-widget elementor-widget-text-editor" data-id="7cbfe24" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Once you at interview stage, probe on what the candidate has found to be particularly challenging in their career so far. Look for whether they accept personal responsibility for any mistakes and how comfortable they are in doing that.</p><p>To be accountable, you must be happy to take personal responsibility and have the drive to learn and improve.</p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-c592dd7 elementor-widget elementor-widget-heading" data-id="c592dd7" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Get Expectations Set Using RACI</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-89ba464 elementor-widget elementor-widget-text-editor" data-id="89ba464" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Sometimes it&#8217;s just worth spelling it out. Using RACI can be helpful in this case.<br />My advice is not to try and boil the ocean with your RACI chart. Start with the big items that you think need clarifying first and keep evolving it as missing aspects are uncovered.<br />Like every good agile product, iterate!</p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
+							</div>
 		</section>
 						</div>
-			</div>
-		</div>
+					</div>
 		]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>The ugly side of &#8220;No Surprises&#8221; Management</title>
+		<title>The ugly side of “No Surprises” Management</title>
 		<link>/the-ugly-side-of-no-surprises-management/</link>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Fri, 12 Jun 2020 07:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[shpinkso]]></dc:creator>
+		<pubDate>Wed, 22 Dec 2021 14:33:23 +0000</pubDate>
 				<category><![CDATA[People]]></category>
-		<guid isPermaLink="false">/?p=1250</guid>
+		<guid isPermaLink="false">/?p=120</guid>
 
-					<description><![CDATA[I get it&#8230; I think&#8230; &#8220;No Surprises&#8221; management is intended to ensure that people aren&#8217;t hiding bad news from their colleagues (let&#8217;s face it, usually their boss or some other superior) so that we&#8217;re not horribly surprised at the last minute that, for example, our project is 6 months late. Boom! Instant high-functioning team! Everyone &#8230;<p class="read-more"> <a class="" href="/the-ugly-side-of-no-surprises-management/"> <span class="screen-reader-text">The ugly side of &#8220;No Surprises&#8221; Management</span> Read More &#187;</a></p>]]></description>
-										<content:encoded><![CDATA[
-<p>I get it&#8230; I think&#8230;</p>
+					<description><![CDATA[The ugly side of “No Surprises” Management I get it… I think… “No Surprises” management is intended to ensure that people aren’t hiding bad news from their colleagues (let’s face it, usually their boss or some other superior) so that we’re not horribly surprised at the last minute that, for example, our project is 6 [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="120" class="elementor elementor-120" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-378af67e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="378af67e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5d34680e" data-id="5d34680e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-dd212e1 elementor-widget elementor-widget-heading" data-id="dd212e1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">The ugly side of “No Surprises” Management</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2aa6a3c3 elementor-widget elementor-widget-text-editor" data-id="2aa6a3c3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<!-- wp:image {"id":121,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img loading="lazy" width="1024" height="683" src="/wp-content/uploads/2021/12/mason-kimbarovsky-vyI4taQNowM-unsplash-1024x683-1.jpg" alt="" class="wp-image-121" srcset="/wp-content/uploads/2021/12/mason-kimbarovsky-vyI4taQNowM-unsplash-1024x683-1.jpg 1024w, /wp-content/uploads/2021/12/mason-kimbarovsky-vyI4taQNowM-unsplash-1024x683-1-300x200.jpg 300w, /wp-content/uploads/2021/12/mason-kimbarovsky-vyI4taQNowM-unsplash-1024x683-1-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<!-- /wp:image -->
 
+<!-- wp:paragraph -->
+<p>I get it… I think…</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>“No Surprises” management is intended to ensure that people aren’t hiding bad news from their colleagues (let’s face it, usually their boss or some other superior) so that we’re not horribly surprised at the last minute that, for example, our project is 6 months late.</p>
+<!-- /wp:paragraph -->
 
-<p>&#8220;No Surprises&#8221; management is intended to ensure that people aren&#8217;t hiding bad news from their colleagues (let&#8217;s face it, usually their boss or some other superior) so that we&#8217;re not horribly surprised at the last minute that, for example, our project is 6 months late.</p>
+<!-- wp:paragraph -->
+<p>Boom! Instant high-functioning team! Everyone feels safe and surprises never happen…. Or at least, god help you if they still do happen, because I was very clear that I don’t like surprises! What don’t you understand? There isn’t an article on the whole internet that disagrees… Welcome to success-ville.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Well…</p>
+<!-- /wp:paragraph -->
 
-<p>Boom! Instant high-functioning team! Everyone feels safe and surprises never happen&#8230;. Or at least, god help you if they still do happen, because I was very clear that I don&#8217;t like surprises! What don&#8217;t you understand? There isn&#8217;t an article on the whole internet that disagrees&#8230; Welcome to success-ville.</p>
+<!-- wp:paragraph -->
+<p>I’m a manager and this is surprising to me (run for cover!) but there isn’t a single article that I could find in my, admittedly limited searching, that had anything but praise for this management style.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>I can tell you, from personal experience, that I think there’s a whole lot wrong with this management style and I’d go so far as saying I think it’s a net negative approach even when given the most generous interpretation. Here’s why…</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p><strong>Slapping a plaster on an amputation</strong></p>
+<!-- /wp:paragraph -->
 
-<p>Well&#8230;</p>
-
-
-
-<p>I&#8217;m a manager and this is surprising to me (run for cover!) but there isn&#8217;t a single article that I could find in my, admittedly limited searching, that had anything but praise for this management style.</p>
-
-
-
-<p>I can tell you, from personal experience, that I think there&#8217;s a whole lot wrong with this management style and I&#8217;d go so far as saying I think it&#8217;s a net negative approach even when given the most generous interpretation. Here&#8217;s why&#8230;</p>
-
-
-
-<p><strong>It&#8217;s like slapping a plaster on an amputation</strong></p>
-
-
-
+<!-- wp:paragraph -->
 <p>Why would someone in a position of management be implementing No Surprises management in the first place? The fact that this needs to be employed at all speaks volumes about the level of trust, safety and collaboration that is being experienced.</p>
+<!-- /wp:paragraph -->
 
-
-
+<!-- wp:paragraph -->
 <p>If management are expecting their teams to hide bad news, we have a systemic disfunction. All of your time and attention needs to go into stemming the culture bleed.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>The likelihood is that your teams are hiding bad news due to either a highly competitive environment, a culture of expecting flawless foresight in a inherently unpredictable world, or through fear of being blamed. Implementing No Surprises management simply attempts to relocate the fear from the point where it’s too late to change anything, to… just all the time.</p>
+<!-- /wp:paragraph -->
 
-
-<p>The likelihood is that your teams are hiding bad news due to either a highly competitive environment or through fear of being blamed. Implementing No Surprises management simply attempts to relocate the fear from the point where it&#8217;s too late to change anything, to&#8230; just all the time.</p>
-
-
-
+<!-- wp:paragraph -->
 <p>Perhaps that fear plaster will stem the bleed for a short time, but how is that patient doing?</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p><strong>It’s unclear what it means</strong></p>
+<!-- /wp:paragraph -->
 
-
-<p><strong>It&#8217;s unclear what it means</strong></p>
-
-
-
+<!-- wp:paragraph -->
 <p>Under a No Surprises management regime, am I in trouble for making a decision without my manager being involved? What level of surprise are we talking about here?</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>As with risk, surprise can be a positive as well as a negative. I suppose we’d all like to hope that positive surprises are not to be banished in our new world order? Perhaps they are though?</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>I’ve had the unfortunate experience of management that got very upset when I ran a short meeting proposing a new tool for linking features to tests, a problem we&#8217;d been struggling with for a while… Apparently, in this environment, my session was inside the scope of “surprise” and I should have spent several weeks seeding the idea with management first.</p>
+<!-- /wp:paragraph -->
 
-<p>As with risk, surprise can be a positive as well as a negative. I suppose we&#8217;d all like to hope that positive surprises are not to be banished in our new world order? Perhaps they are though?</p>
+<!-- wp:paragraph -->
+<p>In another role, I’d found out that speaking to someone directly rather than going through my manager also fell under the scope of “surprise”.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>In short, micro managers love this management style… and it certainly doesn’t help that there’s so little material there to challenge peoples belief that it’s good management protocol.</p>
+<!-- /wp:paragraph -->
 
-
-<p>I&#8217;ve had the unfortunate experience of management that got very upset when I ran a short meeting proposing a new tool for linking features to tests&#8230; Apparently this session was inside the scope of &#8220;surprise&#8221; and I should have spent several weeks seeding the idea with management first.</p>
-
-
-
-<p>In another role, I&#8217;d found out that speaking to someone directly rather than going through my manager also fell under the scope of &#8220;surprise&#8221;.</p>
-
-
-
-<p>In short, micro managers love this management style&#8230; and it certainly doesn&#8217;t help that there&#8217;s so little material there to challenge their belief that it&#8217;s good management protocol.</p>
-
-
-
+<!-- wp:paragraph -->
 <p><strong>It puts people on edge</strong></p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Life is a ongoing cascade of surprises, there’s no pretending that this can be reined in to zero.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Having worked in project management and development, I’m well aware that surprises aren’t always predictable nor blank and white. Most situations involve fluctuating risk and uncertainty and, more often than not, there won&#8217;t be a clearly defined point of &#8220;surprise&#8221;. So at what point will someone be angry? They were very clear that they don’t want surprises. </p>
+<!-- /wp:paragraph -->
 
-<p>Life is a ongoing cascade of surprises, there&#8217;s no pretending that this can be reined in to zero.</p>
+<!-- wp:paragraph -->
+<p>Perhaps the fear of pointing out the surprise to our &#8216;no surprises&#8217; manager will start to make people think twice about asking for support&#8230; perhaps they might even start coving up that anything happened in the hope that they won&#8217;t have to highlight a &#8216;surprise&#8217;.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>As I alluded to earlier in this article, No Surprises management attempts to resolve the issue of low-safety culture by spreading the fear more evenly across time.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>“Just don’t let me experience any surprises, simple.”</p>
+<!-- /wp:paragraph -->
 
-<p>Having worked in project management and development, I&#8217;m well aware that surprises aren&#8217;t always predictable. Most situations involve fluctuating risk and uncertainty and you&#8217;ll find yourself blindsided by a turn in the road, putting you in full surprise mode. Whoops! Someone&#8217;s going to be angry, they were very clear that they don&#8217;t want surprises. Bad subordinate! =)</p>
-
-
-
-<p>As I alluded to earlier in this article, No Surprises management attempts to resolve the issue of low-safety culture by spreading the fear more evenly across projects.</p>
-
-
-
-<p>&#8220;Just don&#8217;t let me experience any surprises, simple.&#8221;</p>
-
-
-
-<p>Well&#8230; Now we&#8217;re all in for a bad time.</p>
-
-
-
+<!-- wp:paragraph -->
 <p><strong>It smacks of insecurity</strong></p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>I has an undertone of not wanting to be out of the loop about anything. It indicates that you’re afraid the team are hiding things from you, or doing things behind your back.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>I’m convinced that this style of management is often used by those who feel they need to know every detail of what’s going on so that, should they be asked, they don’t feel foolish by having to admit they don’t know what the cutting edge news is.</p>
+<!-- /wp:paragraph -->
 
-<p>I has an undertone of not wanting to be out of the loop about anything. It indicates that you&#8217;re afraid the team are hiding things from you, or doing things behind your back.</p>
+<!-- wp:paragraph -->
+<p>Unfortunately, knowing everything in great detail is both not possible and attempting to do so slows everything down. Which brings me nicely on to…</p>
+<!-- /wp:paragraph -->
 
-
-
-<p>I&#8217;m convinced that this style of management is often used by those who feel they need to know every detail of what&#8217;s going on so that, should they be asked, they don&#8217;t feel foolish by having to admit they don&#8217;t know what the cutting edge news is.</p>
-
-
-
-<p>Unfortunately, knowing everything in great detail is both not possible and attempting to do so slows everything down. Which brings me nicely on to&#8230;</p>
-
-
-
+<!-- wp:paragraph -->
 <p><strong>It creates bottlenecks</strong></p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Given that we don’t really know the intricate detail of what our surprise-fearing management classify as burgeoning surprises worthy of their attention, we suppose that the safe bet is to inform them of everything… however insignificant it seems at the time.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>After all, any insignificant seeming decision or action could end up influencing an unacceptable surprise.</p>
+<!-- /wp:paragraph -->
 
-<p>Given that we don&#8217;t really know the intricate detail of what our surprise-fearing management classify as surprises worthy of their attention, we suppose that the safe bet is to inform them of everything&#8230; however insignificant it seems at the time.</p>
+<!-- wp:paragraph -->
+<p>The boss is pretty busy though, so we’d better wait around and not make progress until we find a spot to update them. Or spend time composing a message to inform them rather than spending that time doing something actually productive.</p>
+<!-- /wp:paragraph -->
 
-
-
-<p>After all, any insignificant seeming decision or action could end up influencing huge and unacceptable surprise.</p>
-
-
-
-<p>The boss is pretty busy though, so we&#8217;d better wait around and not make progress until we find a spot to update them. Or spend time composing a message to inform them rather than spending that time doing something actually productive.</p>
-
-
-
+<!-- wp:paragraph -->
 <p><strong>It stifles autonomy</strong></p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>How much to I trust my team to manage their own risk and find an effective way to reach our goals?</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>If the answer is “barely at all” then, sure, maybe I suddenly feel the need to make sure I’m informed of all deviations from the path so that I can dictate how to get back on – but at this point I have much bigger problems.</p>
+<!-- /wp:paragraph -->
 
-<p>How much to I trust my team to manage their own risk and find an effective way to reach our goals?<br>If the answer is &#8220;barely at all&#8221; then, sure, maybe I suddenly feel the need to make sure I&#8217;m informed of all deviations from the path so that I can dictate how to get back on &#8211; but at this point I have much bigger problems.</p>
+<!-- wp:paragraph -->
+<p>If I do trust my team, then my role changes from cattle prodder to guide – I have to accept that this might mean that my team make mistakes, at which point my role might temporarily become politics absorber, but the team are stronger for it.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>The fact is that autonomous teams shouldn’t be bogged down with concerns about how much ‘surprise’ I can accept. In a well functioning team, the communication should be such that we don’t even need to think about what might be considered surprising or not.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Another thing you might find from a well functioning team is that you’re experiencing more good surprises than bad ones… Now who doesn’t like surprises?</p>
+<!-- /wp:paragraph -->
 
-<p>If I do trust my team, then my role changes from sheep herder to guide &#8211; I have to accept that this might mean that my team make mistakes, at which point my role might temporarily become politics absorber, but the team are stronger for it.</p>
-
-
-
-<p>The fact is that autonomous teams shouldn&#8217;t be bogged down with concerns about how much &#8216;surprise&#8217; I can accept. In a well functioning team, the communication should be such that we don&#8217;t even need to think about what might be considered surprising or not.</p>
-
-
-
-<p>Another thing you might find from a well functioning team is that you&#8217;re experiencing more good surprises than bad ones&#8230; Now who doesn&#8217;t like surprises?</p>
-
-
-
+<!-- wp:paragraph -->
 <p>Perhaps we could be working with short cycle iterations driven by feedback, then how much surprise can we even create?</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>In summary, No Surprises management seems like a entry from the Industrial Age playbook (this excellent concept comes from “Leadership is Language” by David Marquet, please read it if you haven’t already) and comes with significant down sides. Perhaps it should be thrown out with the rest of that playbook.</p>
+<!-- /wp:paragraph -->
 
-
-<p>In summary, No Surprises management seems like a entry from the Industrial Age playbook (this excellent concept comes from &#8220;Leadership is Language&#8221; by David Marquet, please read it if you haven&#8217;t already) and comes with significant down sides. Perhaps it should be thrown out with the rest of that playbook.</p>
-
-
-
+<!-- wp:paragraph -->
 <p>Thanks for reading!</p>
-]]></content:encoded>
+<!-- /wp:paragraph -->						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Autonomous teams vs &#8216;resource&#8217; management</title>
+		<title>Autonomous teams vs ‘resource’ management</title>
 		<link>/autonomous-teams-vs-resource-management/</link>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Sat, 23 May 2020 20:39:03 +0000</pubDate>
+		<dc:creator><![CDATA[shpinkso]]></dc:creator>
+		<pubDate>Wed, 22 Dec 2021 14:04:25 +0000</pubDate>
 				<category><![CDATA[Development]]></category>
 		<category><![CDATA[People]]></category>
-		<guid isPermaLink="false">/?p=1216</guid>
+		<guid isPermaLink="false">/?p=116</guid>
 
-					<description><![CDATA[How often have you heard the phrase &#8220;We don&#8217;t have the resource&#8221; or &#8220;How many resources will it take?&#8221; Quite apart from the dehumanising nature of the word &#8220;resource&#8221; (should we, in response, say &#8220;that&#8217;s a good question, management resource number 3&#8221;?), people are not automatons who are all equally skilled/motivated coding monkeys that can &#8230;<p class="read-more"> <a class="" href="/autonomous-teams-vs-resource-management/"> <span class="screen-reader-text">Autonomous teams vs &#8216;resource&#8217; management</span> Read More &#187;</a></p>]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1216" class="elementor elementor-1216" data-elementor-settings="[]">
-			<div class="elementor-inner">
-				<div class="elementor-section-wrap">
-							<section class="elementor-element elementor-element-472a2585 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="472a2585" data-element_type="section">
+					<description><![CDATA[Autonomous teams vs ‘resource’ management How often have you heard the phrase “We don’t have the resource” or “How many resources will it take?” Quite apart from the dehumanising nature of the word “resource” (should we, in response, say “that’s a good question, management resource number 3”?), people are not automatons who are all equally [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="116" class="elementor elementor-116" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-761b432a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="761b432a" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-985e54 elementor-column elementor-col-100 elementor-top-column" data-id="985e54" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<section class="elementor-element elementor-element-c2599e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="c2599e2" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-4e5130f elementor-column elementor-col-100 elementor-inner-column" data-id="4e5130f" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-467c64e elementor-widget elementor-widget-text-editor" data-id="467c64e" data-element_type="widget" data-widget_type="text-editor.default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-79be3b61" data-id="79be3b61" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-34fbdcd elementor-widget elementor-widget-heading" data-id="34fbdcd" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>How often have you heard the phrase &#8220;We don&#8217;t have the resource&#8221; or &#8220;How many resources will it take?&#8221;</p>
-<p>Quite apart from the dehumanising nature of the word &#8220;resource&#8221; (should we, in response, say &#8220;that&#8217;s a good question, management resource number 3&#8221;?), people are not automatons who are all equally skilled/motivated coding monkeys that can be assumed to be equally effective in all scenarios.</p>
-<p>People each have unique skills, ways of working, areas of experience, interests and relationships with others that all matter heavily in terms of getting the best results, or getting anything at all.</p></div>
+			<h1 class="elementor-heading-title elementor-size-default">Autonomous teams vs ‘resource’ management</h1>		</div>
 				</div>
+				<div class="elementor-element elementor-element-19f44ed4 elementor-widget elementor-widget-text-editor" data-id="19f44ed4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<!-- wp:image {"id":117,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img loading="lazy" width="848" height="410" src="/wp-content/uploads/2021/12/paper-team.jpg" alt="" class="wp-image-117" srcset="/wp-content/uploads/2021/12/paper-team.jpg 848w, /wp-content/uploads/2021/12/paper-team-300x145.jpg 300w, /wp-content/uploads/2021/12/paper-team-768x371.jpg 768w" sizes="(max-width: 848px) 100vw, 848px" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>How often have you heard the phrase “We don’t have the resource” or “How many resources will it take?”</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Quite apart from the dehumanising nature of the word “resource” (should we, in response, say “that’s a good question, management resource number 3”?), people are not automatons who are all equally skilled/motivated coding machines that can be assumed to be equally effective in all scenarios.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>People each have unique skills, ways of working, areas of experience, interests and relationships with others that all matter heavily in terms of getting the best results, or getting anything at all.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>“Put two resources on this…”</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is the challenge and the joy of managing a team, as you get to know each member of the team, you start seeing how each members works, what keeps them engaged and effective. In return, engaged and effective people make for an excellent team to manage.<br>This is why it kills me a bit every time I have to grin and bear this idea that it’s sensible to “put N resources on this”. <br>Now, an experience team manager might just nod and manage the gap between the ask and the reality on the ground, but it wouldn&#8217;t manifest as two full time engineers beavering away on only that task every day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>While we’re on the subject, Scott Adams, as usual, hits the nail on the head: <a href="https://dilbert.com/strip/1995-09-22">https://dilbert.com/strip/1995-09-22</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":118,"mediaLink":"/?attachment_id=118","mediaType":"image","mediaWidth":52} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:52% auto"><figure class="wp-block-media-text__media"><img loading="lazy" width="768" height="377" src="/wp-content/uploads/2021/12/resource-chart-768x377-1.png" alt="" class="wp-image-118 size-full" srcset="/wp-content/uploads/2021/12/resource-chart-768x377-1.png 768w, /wp-content/uploads/2021/12/resource-chart-768x377-1-300x147.png 300w" sizes="(max-width: 768px) 100vw, 768px" /></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p>So if we shouldn’t treat engineers (or anyone else for that matter) as identical ‘resources’ to be applied, interchangeably across tasks, how do we know that we’re making 100% use out of all of our ‘resources’ all of the time?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Wouldn’t we want a big resource mountain chart so that we can ensure that no one is slacking off and that we’re fully utilising everyone?</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph -->
+<p><em><span class="has-inline-color has-cyan-bluish-gray-color">Have you seen this before? A resource mountain chart where the total capacity of your development function is lower than the identified work and people are expected just to move from one project to the next, unhindered – perhaps you hear mutters of concern before we move quickly on to the next slide. How does this represent whether someone on project 3 can effectively contribute to project 4 or not, the unknown unknowns, the bring up time, the cognitive load, to name but a few. I&#8217;ve often wondered whether it&#8217;s secretly seen as a good thing that the staff are having to deal with more work than there&#8217;s capacity to handle (assuming the estimates mean anything much at all) &#8211; it comes up a lot in phasing such as &#8220;keeping their feet to the fire&#8221; or &#8220;running lean&#8221;. </span></em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>It’s a bit more complicated than that</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Generating resource mountain charts are a fantastic way to distract your teams from doing valuable work in order to give the <em>illusion</em> of control and comfort that everyone’s fully utilised. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>My experience as a technical project manager who prefers to locate and work closely with the technical teams, is that they are almost *never* working on what the mountain chart says they should be. <br>Why? Because the reality on the ground is that priorities change, people are complex, the work is complex and the very idea of detailed predictability around who’s working on what beyond a few weeks is pure fantasy, especially in larger companies, particularly in software.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>What’s the alternative?</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Would it sound unprofessional to say that we perhaps shouldn’t fully load everyone with necessary work? It sounds non-intuitive, but it’s beneficial for several reasons &amp; a subject for another blog. For now, bear with me on this idea.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>How about we create cross-skill teams that can manage autonomously? Depending on the number of independent skill sets required for your business, it may be possible to create multiple, similarly capable teams. In the case of businesses with a high number of specialised skills required, teams that can manage specific aspects of your product or service.<br>The key is that these teams need to have all the skills embedded in the team to allow them to complete tasks end to end. This vastly reduces the need for expensive coordination effort across teams when coupled with a modular architecture and decent CI/CD infrastructure.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once you have your autonomous teams, the input simply becomes a prioritised list of features/stories/business needs that the team can own and deliver by themselves.<br>What are your thoughts? Have you tried this approach? Did it work for you?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Some handy references</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/">https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/</a><br><a href="https://blog.newrelic.com/culture/autonomous-teams-what-they-are-and-why-you-should-care/">https://blog.newrelic.com/culture/autonomous-teams-what-they-are-and-why-you-should-care/</a><br><a href="https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/">https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Thanks for reading!</p>
+<!-- /wp:paragraph -->						</div>
 				</div>
-						</div>
-			</div>
+					</div>
 		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-d10c1d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="d10c1d3" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-38d958a elementor-column elementor-col-100 elementor-inner-column" data-id="38d958a" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-0c40a3b elementor-widget elementor-widget-text-editor" data-id="0c40a3b" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>&#8220;Put two resources on this&#8230;&#8221;</h4></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-13b4272 elementor-widget elementor-widget-text-editor" data-id="13b4272" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>This is the challenge and the joy of managing a team, as you get to know each member of the team, you start seeing how they work, what keeps them engaged and effective. In return, engaged and effective people make for an excellent team to manage.<br />This is why it kills me a bit every time I have to grin and bear this idea that it&#8217;s sensible to &#8220;put two resources on this&#8221;. <br />Now, any manager worth their salt will just nod and manage the low priority task in a way that keeps upper management off their back, but certainly isn&#8217;t two full time engineers beavering away on only that task every day.</p>
-<p>While we&#8217;re on the subject, Scott Adams, as usual, hits the nail on the head: <a href="https://dilbert.com/strip/1995-09-22">https://dilbert.com/strip/1995-09-22</a></p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-6cb7aa4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="6cb7aa4" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-3b23f43 elementor-column elementor-col-50 elementor-inner-column" data-id="3b23f43" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-ca9e6dc elementor-widget elementor-widget-image" data-id="ca9e6dc" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-image">
-										<img width="768" height="377" src="/wp-content/uploads/2020/05/resource-chart-768x377.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="/wp-content/uploads/2020/05/resource-chart-768x377.png 768w, /wp-content/uploads/2020/05/resource-chart-300x147.png 300w, /wp-content/uploads/2020/05/resource-chart-1024x503.png 1024w, /wp-content/uploads/2020/05/resource-chart-1536x754.png 1536w, /wp-content/uploads/2020/05/resource-chart.png 1743w" sizes="(max-width: 768px) 100vw, 768px" />											</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-39fde70 elementor-widget elementor-widget-text-editor" data-id="39fde70" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #999999;"><em>How many times have you seen this before? A resource mountain chart where the total capacity of your development function is lower than the estimated work &#8211; everyone mutters in concern and no one does anything about it. No one thinks about whether someone on project 3 can effectively contribute to project 4 or not, it doesn&#8217;t matter, these are resources! Just like it take X bricks to build a house and Y bricks to weigh down a gazebo.</em></span></p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-				<div class="elementor-element elementor-element-88259fb elementor-column elementor-col-50 elementor-inner-column" data-id="88259fb" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-8f68e24 elementor-widget elementor-widget-text-editor" data-id="8f68e24" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>So if we shouldn&#8217;t treat engineers (or anyone else for that matter) as identical &#8216;resources&#8217; to be applied, interchangeably across tasks, how do we know that we&#8217;re making 100% use out of all of our &#8216;resources&#8217; all of the time?</p>
-<p>Wouldn&#8217;t we want a big resource mountain chart so that we can ensure that no one is slacking off and that we&#8217;re fully utilising everyone?</p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<div class="elementor-element elementor-element-48e8def elementor-widget elementor-widget-text-editor" data-id="48e8def" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>It&#8217;s a bit more complicated than that</h4></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-a2e368a elementor-widget elementor-widget-text-editor" data-id="a2e368a" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p><span style="font-size: 14px;">Generating resource mountain charts are a fantastic way to distract your teams from doing valuable work in order to give the&nbsp;</span><em style="font-size: 14px;">illusion</em><span style="font-size: 14px;">&nbsp;of control and comfort that everyone&#8217;s fully utilised.&nbsp;</span><br></p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-3bb8ab2 elementor-widget elementor-widget-text-editor" data-id="3bb8ab2" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p><span style="font-size: 14px; font-style: normal; font-weight: 400;">My experience as a technical project manager who prefers to locate and work closely with the technical teams, is that they are almost *never* working on what the mountain chart says they should be. </span><br /><span style="font-size: 14px; font-style: normal; font-weight: 400;">Why? Because the reality on the ground is that priorities change, people are complex, the work is complex and the very idea of detailed predictability around who&#8217;s working on what beyond a few weeks is pure fantasy, especially in larger companies, particularly in software.</span></p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-d272837 elementor-widget elementor-widget-text-editor" data-id="d272837" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>What&#8217;s the alternative?</h4></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-4b0a188 elementor-widget elementor-widget-text-editor" data-id="4b0a188" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:image {"id":1245,"width":1052,"height":509,"sizeSlug":"large"} --></p>
-<figure class="wp-block-image size-large is-resized"></figure>
-<p><!-- /wp:image --><!-- wp:paragraph --></p>
-<p><span style="font-size: 14px;">Would it sound unprofessional to say that we perhaps shouldn&#8217;t fully load everyone with necessary work? It sounds non-intuitive, but it&#8217;s beneficial for several reasons &amp; a subject for another blog. For now, bear with me on this idea.</span></p>
-<p>How about we create cross-skill teams that can manage autonomously? Depending on the number of independent skill sets required for your business, it may be possible to create multiple, similarly capable teams. In the case of businesses with a high number of specialised skills required, teams that can manage specific aspects of your product or service. <br>The key is that these teams need to have all the skills embedded in the team to allow them to complete tasks end to end. This vastly reduces the need for expensive coordination effort across teams when coupled with a modular architecture and decent CI/CD infrastructure.</p>
-<p>Once you have your autonomous teams, the input simply becomes a prioritised list of features/stories/business needs that the team can own and deliver by themselves.<br>What are your thoughts? Have you tried this approach? Did it work for you?<br></p>
-<p><!-- /wp:paragraph --></p></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-34023b4 elementor-widget elementor-widget-text-editor" data-id="34023b4" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>Some handy references</h4></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-1914f51 elementor-widget elementor-widget-text-editor" data-id="1914f51" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p style="font-size: 14px; font-style: normal; font-weight: 400;"><a style="font-size: 14px;" href="https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/">https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/</a><br /><a style="font-size: 14px;" href="https://blog.newrelic.com/culture/autonomous-teams-what-they-are-and-why-you-should-care/">https://blog.newrelic.com/culture/autonomous-teams-what-they-are-and-why-you-should-care/</a><br /><a style="font-size: 14px;" href="https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/">https://www.mindtheproduct.com/2018/02/team-smarter-autonomous-product-teams-work-better/</a></p>
-<p style="font-size: 14px; font-style: normal; font-weight: 400;">Thanks for reading!</p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
+							</div>
 		</section>
 						</div>
-			</div>
-		</div>
+					</div>
 		]]></content:encoded>
 					
 		
@@ -530,39 +504,99 @@ It is certainly true that if a team doesn&#8217;t deliver anything then it is pr
 		<title>Motivation 2.0</title>
 		<link>/motivation-2-0/</link>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Sat, 23 May 2020 20:28:27 +0000</pubDate>
+		<dc:creator><![CDATA[shpinkso]]></dc:creator>
+		<pubDate>Wed, 22 Dec 2021 08:39:40 +0000</pubDate>
 				<category><![CDATA[People]]></category>
-		<guid isPermaLink="false">/?p=1212</guid>
+		<guid isPermaLink="false">/?p=110</guid>
 
-					<description><![CDATA[How are you engaging your team? Are you running a regular appraisal cycle where everyone&#8217;s individual score is totted up and ultimately dictates financial reward (pay increase, bonus, share options) or, on the other side of the scale, performance improvement plans? How are you finding this? Do people who get the financial rewards become more &#8230;<p class="read-more"> <a class="" href="/motivation-2-0/"> <span class="screen-reader-text">Motivation 2.0</span> Read More &#187;</a></p>]]></description>
-										<content:encoded><![CDATA[
-<p>How are you engaging your team? Are you running a regular appraisal cycle where everyone&#8217;s individual score is totted up and ultimately dictates financial reward (pay increase, bonus, share options) or, on the other side of the scale, performance improvement plans? </p>
+					<description><![CDATA[Motivation 2.0 How are you engaging your team? Are you running a regular appraisal cycle where everyone’s individual score is totted up and ultimately dictates financial reward (pay increase, bonus, share options) or, on the other side of the scale, performance improvement plans? How are you finding this? Do people who get the financial rewards [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="110" class="elementor elementor-110" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-2e56b24c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2e56b24c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2618520d" data-id="2618520d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b232b50 elementor-widget elementor-widget-heading" data-id="b232b50" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Motivation 2.0</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-39a3eb19 elementor-widget elementor-widget-text-editor" data-id="39a3eb19" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<!-- wp:image {"id":111,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img loading="lazy" width="960" height="593" src="/wp-content/uploads/2021/12/Motivation-sign-with-a-beautiful-day.jpeg" alt="" class="wp-image-111" srcset="/wp-content/uploads/2021/12/Motivation-sign-with-a-beautiful-day.jpeg 960w, /wp-content/uploads/2021/12/Motivation-sign-with-a-beautiful-day-300x185.jpeg 300w, /wp-content/uploads/2021/12/Motivation-sign-with-a-beautiful-day-768x474.jpeg 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure>
+<!-- /wp:image -->
 
+<!-- wp:paragraph -->
+<p>How are you engaging your team? Are you running a regular appraisal cycle where everyone’s individual score is totted up and ultimately dictates financial reward (pay increase, bonus, share options) or, on the other side of the scale, performance improvement plans?</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>How are you finding this?</p>
+<!-- /wp:paragraph -->
 
-<p>How are you finding this? </p>
+<!-- wp:paragraph -->
+<p>Do people who get the financial rewards become more engaged and effective throughout the year? Do those on the performance improvement plans “pull their socks up” and become superstars now that they know they’re not performing to expectations?</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>I wouldn’t be at all surprised if the answer is no. I’ve never seen this approach actually make any difference &amp; the psychology behind this backs me up.<br>The title of this blog is taken from the book “Drive: The Surprising Truth About What Motivates Us” by Daniel H Pink. It’s backed up with scientific studies on the psychology of motivation and problem solving. I highly recommend it.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p><br>The book talks about the legacy Motivation 1.0 – this is the ‘carrot and stick’ motivation approach that the human race has employed for hundreds of years. It works in certain circumstances, primarily those in which the work is monotonous and just requires effort. It works by manipulating base animal drives like fear and avoidance of pain.</p>
+<!-- /wp:paragraph -->
 
-<p>Do people who get the financial rewards become more engaged and effective throughout the year? Do those on the performance improvement plans &#8220;pull their socks up&#8221; and become superstars now that they know they&#8217;re not performing to expectations?</p>
+<!-- wp:paragraph -->
+<p><br>However, when you consider modern software development, the work is complex, requires deep thought, high collaboration, fast learning and creative thinking – this is demonstrably not improved by injecting fear of bad performance, in fact it’s greatly hindered. It’s also not improved by higher pay or bonuses – us humans are very good and getting used to new things very quickly and just raising our expectations to a ‘new normal’.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p><br>So what does work? Pink identifies the following things:</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
 
-<p>I wouldn&#8217;t be at all surprised if the answer is no. I&#8217;ve never seen this approach actually make any difference &amp; the psychology behind this backs me up.<br>The title of this blog is taken from the book &#8220;Drive: The Surprising Truth About What Motivates Us&#8221; by Daniel H Pink. It&#8217;s backed up with scientific studies on the psychology of motivation and problem solving. I highly recommend it.<br>The book talks about the legacy Motivation 1.0 &#8211; this is the &#8216;carrot and stick&#8217; motivation approach that the human race has employed for hundreds of years. It works in certain circumstances, primarily those in which the work is monotonous and just requires effort. It works by manipulating base animal drives like fear and avoidance of pain.<br>However, when you consider modern software development, the work is complex, requires deep thought, high collaboration, fast learning and creative thinking &#8211; this is demonstrably not improved by injecting fear of bad performance, in fact it&#8217;s greatly hindered. It&#8217;s also not improved by higher pay or bonuses &#8211; us humans are very good and getting used to new things very quickly and just raising our expectations to a &#8216;new normal&#8217;.<br>So what does work? Pink identifies the following things:</p>
+<!-- wp:paragraph -->
+<p><strong>Autonomy</strong></p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>There’s a well established psychological principle that the more say you have over your situation the happier you are. If you try to control things you do not actually have control over, you’re in for a frustrating time. Giving autonomy can be considered difficult when we necessarily need people to do things that the business needs, not just whatever they feel is important. However, this apparent difficulty is not as problematic as it first appears. I find people do tend to want to work towards a greater goal rather than go off and do some tangential thing. To maximise autonomy without compromising business objectives: avoid things like handing people detailed designs to code up, instead focus on clear objectives and the reasoning behind these objectives – exactly how the solution is reached on a technical level is what provides autonomy. Developers like to problem solve! Use review cycles and mentoring to minimise the chances of the technical solution straying too far from an agreed path.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
 
-<p><br><strong>Autonomy</strong><br>There&#8217;s a well established psychological principle that the more say you have over your situation the happier you are. If you try to control things you do not actually have control over, you&#8217;re in for a frustrating time.Giving autonomy can be considered difficult when we necessarily need people to do things that the business needs, not just whatever they feel is important.However, this apparent difficulty is not as problematic as it first appears. I find people do tend to want to work towards a greater goal rather than go off and do some tangential thing. To maximise autonomy without compromising business objectives: avoid things like handing people detailed designs to code up, instead focus on clear objectives and the reasoning behind these objectives &#8211; exactly how the solution is reached on a technical level is what provides autonomy. Developers like to problem solve!Use review cycles and mentoring to minimise the chances of the technical solution going down a problematic road.<br></p>
+<!-- wp:paragraph -->
+<p><strong>Mastery</strong></p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>People want to be good at their jobs, people want to be looked up to as a mentor, but more than that, there’s a great deal of satisfaction that comes from understanding a subject at a deep level.Develop mastery in your team by giving them the space to learn &amp; entrusting them with ownership. Avoid dictating how things should be done. Instead, provide guidance and accept that making mistakes is an important part of the learning process.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
 
-<p><strong>Mastery</strong><br>People want to be good at their jobs, people want to be looked up to as a mentor, but more than that, there&#8217;s a great deal of satisfaction that comes from understanding a subject at a deep level.Develop mastery in your team by giving them the space to learn &amp; entrusting them with ownership. Avoid dictating how things should be done. Instead, provide guidance and accept that making mistakes is an important part of the learning process.</p>
+<!-- wp:paragraph -->
+<p><strong>Purpose</strong></p>
+<!-- /wp:paragraph -->
 
-
-
-<p><br><strong>Purpose</strong><br>Why are we doing what we&#8217;re doing? A purpose can be an individual one (e.g. teaching others) or it can be a company one (e.g. “to organize the world&#8217;s information and make it universally accessible and useful.”). This is part of the reason why it&#8217;s so important to have a mission statement that gives employees a wider purpose to what they do.Use 1-2-1s or informal conversations to understand the individuals in your team and help them identify the sort of purpose that motivates them.</p>
-]]></content:encoded>
+<!-- wp:paragraph -->
+<p>Why are we doing what we’re doing? A purpose can be an individual one (e.g. teaching others) or it can be a company one (e.g. “to organize the world’s information and make it universally accessible and useful.”). This is part of the reason why it’s so important to have a mission statement that gives employees a wider purpose to what they do.Use 1-2-1s or informal conversations to understand the individuals in your team and help them identify the sort of purpose that motivates them.</p>
+<!-- /wp:paragraph -->						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
 					
 		
 		

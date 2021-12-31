@@ -8,232 +8,147 @@
 	>
 
 <channel>
-	<title>Metrics &#8211; paulblay</title>
+	<title>Metrics &#8211; Paul Blay on software management</title>
 	<atom:link href="/category/metrics/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>Paul Blay on Software Management</description>
-	<lastBuildDate>Fri, 11 Sep 2020 13:27:24 +0000</lastBuildDate>
+	<link></link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2021 10:53:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.5.1</generator>
-
-<image>
-	<url>/wp-content/uploads/2020/06/cropped-favicon-32x32.png</url>
-	<title>Metrics &#8211; paulblay</title>
-	<link>/</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
+	<generator>https://wordpress.org/?v=5.8.2</generator>
 	<item>
 		<title>Complexity as a software metric</title>
 		<link>/complexity-as-a-software-metric/</link>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Fri, 12 Jun 2020 07:32:07 +0000</pubDate>
+		<dc:creator><![CDATA[shpinkso]]></dc:creator>
+		<pubDate>Wed, 22 Dec 2021 14:44:08 +0000</pubDate>
 				<category><![CDATA[Development]]></category>
 		<category><![CDATA[Metrics]]></category>
-		<guid isPermaLink="false">/?p=1252</guid>
+		<guid isPermaLink="false">/?p=123</guid>
 
-					<description><![CDATA[I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), but how much value is &#8230;<p class="read-more"> <a class="" href="/complexity-as-a-software-metric/"> <span class="screen-reader-text">Complexity as a software metric</span> Read More &#187;</a></p>]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1252" class="elementor elementor-1252" data-elementor-settings="[]">
-			<div class="elementor-inner">
-				<div class="elementor-section-wrap">
-							<section class="elementor-element elementor-element-960e43f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="960e43f" data-element_type="section">
+					<description><![CDATA[Complexity as a software metric I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="123" class="elementor elementor-123" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-55acff8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="55acff8" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-42c2e81 elementor-column elementor-col-100 elementor-top-column" data-id="42c2e81" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<section class="elementor-element elementor-element-b37beec elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="b37beec" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-b9c0a09 elementor-column elementor-col-100 elementor-inner-column" data-id="b9c0a09" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-f022354 elementor-widget elementor-widget-text-editor" data-id="f022354" data-element_type="widget" data-widget_type="text-editor.default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-30e73067" data-id="30e73067" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8880394 elementor-widget elementor-widget-heading" data-id="8880394" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p style="margin: 0cm 0cm 0.0001pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), but how much value is that? Most applications are multi threaded and do not run in a linear fashion, I’d argue that there’s considerably more value in measuring the readability of code in order to allow people to understand what it does and how to change it. I’ve seen easy-to-read and hard-to-read methods that evaluate to the same value on the Cyclomatic Complexity scale. Perhaps that’s ok and we care about logical complexity, but my (weakly held) strong opinion is that the real value is in ease of human understanding when it comes to code.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Perhaps Cyclomatic Complexity has a place as an indicator of worsening or improving code complexity, but I’m happy to say that I have found something that comes a lot closer to evaluating “can I work out what it’s doing?” type complexity, in my mind at least.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">As part of some work that we’re doing on metrics, I had a look into alternative code complexity measure and stumbled upon Cognitive Complexity &#8211; a metric that SonarQube, amongst others presumably, can report.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Now before moving on, I’m assuming that there’s little disagreement that “internal code quality” (of which readability is an aspect) is a valuable thing. If not, stop reading and go here: </span><span style="color: black; mso-color-alt: windowtext;"><a title="https://martinfowler.com/articles/is-quality-worth-cost.html" href="https://martinfowler.com/articles/is-quality-worth-cost.html"><span style="font-family: 'Segoe UI',sans-serif; color: #0052cc; letter-spacing: -.05pt;">https://martinfowler.com/articles/is-quality-worth-cost.html</span></a></span><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;"> </span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">So what is Cognitive Complexity? Other than being obviously how hard something is to get your head around. Well there’s a great whitepaper </span><span style="color: black; mso-color-alt: windowtext;"><a title="https://www.sonarsource.com/resources/white-papers/cognitive-complexity.html" href="https://www.sonarsource.com/resources/white-papers/cognitive-complexity.html"><span style="font-family: 'Segoe UI',sans-serif; color: #0052cc; letter-spacing: -.05pt;">here</span></a></span><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">, but I’ll try to summarise the content below.</span></p><p> </p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Take a look at these examples from the whitepaper:</span></p></div>
+			<style>/*! elementor - v3.5.0 - 12-12-2021 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">Complexity as a software metric</h1>		</div>
 				</div>
+				<div class="elementor-element elementor-element-e3cc9bf elementor-widget elementor-widget-image" data-id="e3cc9bf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.5.0 - 12-12-2021 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="640" height="256" src="/wp-content/uploads/2021/12/maze-2264_640.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2021/12/maze-2264_640.jpg 640w, /wp-content/uploads/2021/12/maze-2264_640-300x120.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />															</div>
 				</div>
-						</div>
-			</div>
+				<div class="elementor-element elementor-element-3db8929d elementor-widget elementor-widget-text-editor" data-id="3db8929d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.5.0 - 12-12-2021 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<!-- wp:image {"id":124,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"></figure>
+<!-- /wp:image --><!-- wp:paragraph -->
+<p>I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), but how much value is that? Most applications are multi threaded and do not run in a linear fashion, I’d argue that there’s considerably more value in measuring the readability of code in order to allow people to understand what it does and how to change it. I’ve seen easy-to-read and hard-to-read methods that evaluate to the same value on the Cyclomatic Complexity scale. Perhaps that’s ok and we care about logical complexity, but my (weakly held) strong opinion is that the real value is in ease of human understanding when it comes to code.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>Perhaps Cyclomatic Complexity has a place as an indicator of worsening or improving code complexity, but I’m happy to say that I have found something that comes a lot closer to evaluating “can I work out what it’s doing?” type complexity, in my mind at least.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>As part of some work that we’re doing on metrics, I had a look into alternative code complexity measure and stumbled upon Cognitive Complexity – a metric that SonarQube, amongst others presumably, can report.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>Now before moving on, I’m assuming that there’s little disagreement that “internal code quality” (of which readability is an aspect) is a valuable thing. If not, stop reading and go here: <a href="https://martinfowler.com/articles/is-quality-worth-cost.html">https://martinfowler.com/articles/is-quality-worth-cost.html</a> </p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>So what is Cognitive Complexity? Other than being obviously how hard something is to get your head around. Well there’s a great whitepaper <a href="https://www.sonarsource.com/resources/white-papers/cognitive-complexity.html">here</a>, but I’ll try to summarise the content below.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>Take a look at these examples from the whitepaper:</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p> </p>
+<!-- /wp:paragraph --><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:code -->
+<pre class="wp-block-code"><code>int sumOfPrimes(int max) {              // +1<br />  int total = 0;<br />  OUT: for (int i = 1; i &lt;= max; ++i) { // +1<br />    for (int j = 2; j &lt; i; ++j) {       // +1<br />      if (i % j == 0) {                 // +1<br />        continue OUT;<br />      }<br />    }<br />    total += i;<br />  }<br />  return total;<br />}</code></pre>
+<!-- /wp:code --><!-- wp:paragraph -->
+<p><strong>Cyclomatic Complexity = 4</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:code -->
+<pre class="wp-block-code"><code>String getWords(int number) {  // +1<br />  switch (number) {<br />    case 1:                    // +1<br />      return "one";<br />    case 2:                    // +1<br />      return "a couple";<br />    case 3:                    // +1<br />      return "a few";<br />    default:<br />      return "lots";<br />    }<br />}</code></pre>
+<!-- /wp:code --><!-- wp:paragraph -->
+<p><strong>Cyclomatic Complexity = 4</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --><!-- wp:paragraph -->
+<p>Which is easier to read and understand? In fact, which is actually more complex and which would need more testing?</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>Here are the same code snippets measured with the Cognitive Complexity metric:</p>
+<!-- /wp:paragraph --><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:code -->
+<pre class="wp-block-code"><code>int sumOfPrimes(int max) {<br />  int total = 0;<br />  OUT: for (int i = 1; i &lt;= max; ++i) { // +1<br />    for (int j = 2; j &lt; i; ++j) {       // +2<br />      if (i % j == 0) {                 // +3<br />        continue OUT;                   // +1<br />      }<br />    }<br />    total += i;<br />  }<br />  return total;<br />}</code></pre>
+<!-- /wp:code --><!-- wp:paragraph -->
+<p><strong>Cognitive Complexity = 7</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:code -->
+<pre class="wp-block-code"><code>String getWords(int number) {<br />  switch (number) {            // +1<br />    case 1:<br />      return "one";<br />    case 2:<br />      return "a couple";<br />    case 3:<br />      return "a few";<br />    default:<br />      return "lots";<br />    }<br />}</code></pre>
+<!-- /wp:code --><!-- wp:paragraph -->
+<p><strong>Cognitive Complexity = 1</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --><!-- wp:paragraph -->
+<p>… that’s more like it.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>How is this done? There are three basic rules</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p><strong>Ignore Structures that allow multiple statements to be readably shorthanded into one.</strong></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>A good example of this is the breaking up of code into methods to increase readability. As a result, Cognitive Complexity does not increment for methods as Cyclomatic Complexity does.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>The aim here is to not penalise good programming practice like an increased number of smaller methods, because it is likely to reduce complexity for a reader.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p><strong>Increment when flow-breaking structures are nested</strong></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>Nested breaks in flow increase count as a proportion of how deeply they are nested. So a new “if” that is nested 4 deep adds 5 to the complexity score. 1 for the “if” and 4 for the nest level.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>This is because it’s intuitively easier to follow a linear list of code breaks than an equally, Cyclomatic Complexity-wise, complicated nested set of code breaks.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p><strong>Increment for each break in the linear flow of the code</strong></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>Anything that breaks the top to bottom, left to right flow of the code increases Cognitive Complexity, similarly to Cyclic Complexity, but there are some interesting differences.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>1.     “Catch” is added as a break in flow</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>2.     “Else”, “Elif” and other alternatives to the initial “if” break in flow do increment but not with the same nesting penalty as above, as the nesting complexity is considered paid already at the initial “if”.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>3.     “Switch” statements only incur a single increment, regardless of cases. Switch statements are considered more understandable then multiple “if”/”else if” blocks.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>4.     Repeating logical comparisons with the same logic operator only increment complexity once. This is because it’s fairly similar effort to understand both of the following lines</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p><code>a &amp;&amp; b</code></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p><code>a &amp;&amp; b &amp;&amp; c &amp;&amp; d</code></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>but much harder to understand a statement with mixed logical operators</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p><code>a || b &amp;&amp; c || d</code></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>5.     Recursion is the one exception to the “don’t increment for methods” rule</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>6.     “goto”, “break” and “continue” increase complexity, but no other jumps are. e.g. an early “return” is considered to make code clearer so is ignored.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>The white paper referenced above is not long and I highly recommend reading it, but I hope that this is a useful summary (if nothing else, writing this caught a couple of mis-conceptions I’d made from just reading the paper).</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p>Thanks for reading!</p>
+<!-- /wp:paragraph -->						</div>
+				</div>
+					</div>
 		</div>
-						</div>
-			</div>
+							</div>
 		</section>
 						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-aa468fe elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="aa468fe" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-5cbd26b elementor-column elementor-col-100 elementor-top-column" data-id="5cbd26b" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<section class="elementor-element elementor-element-9f1944d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="9f1944d" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-d2ebda2 elementor-column elementor-col-50 elementor-inner-column" data-id="d2ebda2" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-65eb68f elementor-widget elementor-widget-text-editor" data-id="65eb68f" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><pre>int sumOfPrimes(int max) {              // +1<br />  int total = 0;<br />  OUT: for (int i = 1; i &lt;= max; ++i) { // +1<br />    for (int j = 2; j &lt; i; ++j) {       // +1<br />      if (i % j == 0) {                 // +1<br />        continue OUT;<br />      }<br />    }<br />    total += i;<br />  }<br />  return total;<br />}</pre></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-fb7060b elementor-widget elementor-widget-text-editor" data-id="fb7060b" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>Cyclomatic Complexity = 4</h4></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-				<div class="elementor-element elementor-element-cf6d430 elementor-column elementor-col-50 elementor-inner-column" data-id="cf6d430" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-482b32d elementor-widget elementor-widget-text-editor" data-id="482b32d" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><pre>String getWords(int number) {  // +1<br />  switch (number) {<br />    case 1:                    // +1<br />      return "one";<br />    case 2:                    // +1<br />      return "a couple";<br />    case 3:                    // +1<br />      return "a few";<br />    default:<br />      return "lots";<br />    }<br />}</pre></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-5dc45d4 elementor-widget elementor-widget-text-editor" data-id="5dc45d4" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>Cyclomatic Complexity = 4</h4></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-83861c4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="83861c4" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-f347265 elementor-column elementor-col-100 elementor-top-column" data-id="f347265" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<section class="elementor-element elementor-element-e1cc0f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="e1cc0f2" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-c1c725a elementor-column elementor-col-100 elementor-inner-column" data-id="c1c725a" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-6123541 elementor-widget elementor-widget-text-editor" data-id="6123541" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Which is easier to read and understand? In fact, which is actually more complex and which would need more testing?</span></p><p> </p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Here are the same code snippets measured with the Cognitive Complexity metric:</span></p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-e6d2ea3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e6d2ea3" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-5016285 elementor-column elementor-col-100 elementor-top-column" data-id="5016285" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<section class="elementor-element elementor-element-eae5e6b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="eae5e6b" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-bd396c0 elementor-column elementor-col-50 elementor-inner-column" data-id="bd396c0" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-adad71c elementor-widget elementor-widget-text-editor" data-id="adad71c" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><pre>int sumOfPrimes(int max) {<br />  int total = 0;<br />  OUT: for (int i = 1; i &lt;= max; ++i) { // +1<br />    for (int j = 2; j &lt; i; ++j) {       // +2<br />      if (i % j == 0) {                 // +3<br />        continue OUT;                   // +1<br />      }<br />    }<br />    total += i;<br />  }<br />  return total;<br />}</pre></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-9a397c9 elementor-widget elementor-widget-text-editor" data-id="9a397c9" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>Cognitive Complexity = 7</h4></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-				<div class="elementor-element elementor-element-f27c914 elementor-column elementor-col-50 elementor-inner-column" data-id="f27c914" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-3488afa elementor-widget elementor-widget-text-editor" data-id="3488afa" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><pre>String getWords(int number) {<br />  switch (number) {            // +1<br />    case 1:<br />      return "one";<br />    case 2:<br />      return "a couple";<br />    case 3:<br />      return "a few";<br />    default:<br />      return "lots";<br />    }<br />}</pre></div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-2b16888 elementor-widget elementor-widget-text-editor" data-id="2b16888" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><h4>Cognitive Complexity = 1</h4></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-b2c511c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b2c511c" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-8fe8c62 elementor-column elementor-col-100 elementor-top-column" data-id="8fe8c62" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<section class="elementor-element elementor-element-0022aa7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="0022aa7" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-da27a2a elementor-column elementor-col-100 elementor-inner-column" data-id="da27a2a" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-1fd214c elementor-widget elementor-widget-text-editor" data-id="1fd214c" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">… that’s more like it.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">How is this done? There are three basic rules</span></p><h4 style="margin-top: 24pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Ignore Structures that allow multiple statements to be readably shorthanded into one.</span></b></h4><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">A good example of this is the breaking up of code into methods to increase readability. As a result, Cognitive Complexity does not increment for methods as Cyclomatic Complexity does.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">The aim here is to not penalise good programming practice like an increased number of smaller methods, because it is likely to reduce complexity for a reader.</span></p><h4 style="margin-top: 24pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Increment when flow-breaking structures are nested</span></b></h4><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Nested breaks in flow increase count as a proportion of how deeply they are nested. So a new “if” that is nested 4 deep adds 5 to the complexity score. 1 for the “if” and 4 for the nest level.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">This is because it’s intuitively easier to follow a linear list of code breaks than an equally, Cyclomatic Complexity-wise, complicated nested set of code breaks.</span></p><h4 style="margin-top: 24pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Increment for each break in the linear flow of the code</span></b></h4><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Anything that breaks the top to bottom, left to right flow of the code increases Cognitive Complexity, similarly to Cyclic Complexity, but there are some interesting differences.</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">1.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“Catch” is added as a break in flow</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">2.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“Else”, “Elif” and other alternatives to the initial “if” break in flow do increment but not with the same nesting penalty as above, as the nesting complexity is considered paid already at the initial “if”.</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">3.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“Switch” statements only incur a single increment, regardless of cases. Switch statements are considered more understandable then multiple “if”/”else if” blocks.</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span class="react-syntax-highlighter-line-number"><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">4.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Repeating logical comparisons with the same logic operator only increment complexity once. This is because it’s fairly similar effort to understand both of the following lines</span></p><p class="MsoNormal" style="line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><code><span style="font-size: 9.0pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #172b4d; background: #F4F5F7;">a
-&amp;&amp; b</span></code></p><p class="MsoNormal" style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><code><span style="font-size: 9.0pt; line-height: 107%; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #172b4d; background: #F4F5F7;">a
-&amp;&amp; b &amp;&amp; c &amp;&amp; d</span></code></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">but much harder to understand a statement with mixed logical operators</span></p><p class="MsoNormal" style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><code><span style="font-size: 9.0pt; line-height: 107%; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #172b4d; background: #F4F5F7;">a || b
-&amp;&amp; c || d</span></code></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">5.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Recursion is the one exception to the “don’t increment for methods” rule</span></p><p style="margin: 0cm 0cm 0.0001pt; text-indent: -18pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><!-- [if !supportLists]--><span style="font-family: 'Segoe UI',sans-serif; mso-fareast-font-family: 'Segoe UI'; color: #172b4d; letter-spacing: -.05pt;">6.<span style="font-style: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">     </span></span><!--[endif]--><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">“goto”, “break” and “continue” increase complexity, but no other jumps are. e.g. an early “return” is considered to make code clearer so is ignored.</span></p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">The white paper referenced above is not long and I highly recommend reading it, but I hope that this is a useful summary (if nothing else, writing this caught a couple of mis-conceptions I’d made from just reading the paper).</span></p><p> </p><p style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 'Segoe UI',sans-serif; color: #172b4d; letter-spacing: -.05pt;">Comments/thoughts are welcome.</span></p></div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
-		</div>
+					</div>
 		]]></content:encoded>
 					
 		

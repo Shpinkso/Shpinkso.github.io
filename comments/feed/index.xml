@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments for paulblay	</title>
+	Comments for Paul Blay on software management	</title>
 	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>Paul Blay on Software Management</description>
-	<lastBuildDate>Thu, 17 Sep 2020 11:05:01 +0000</lastBuildDate>
+	<link></link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Dec 2021 12:56:51 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
 </channel>
 </rss>
